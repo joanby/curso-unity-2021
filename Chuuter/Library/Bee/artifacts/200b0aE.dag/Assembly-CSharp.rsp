@@ -352,6 +352,7 @@
 "Assets/_Scripts/DamageOnContact.cs"
 "Assets/_Scripts/Enemy.cs"
 "Assets/_Scripts/EnemyManager.cs"
+"Assets/_Scripts/GameModeWaves.cs"
 "Assets/_Scripts/Life.cs"
 "Assets/_Scripts/MoveForward.cs"
 "Assets/_Scripts/ObjectPool.cs"
