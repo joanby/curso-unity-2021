@@ -358,6 +358,7 @@
 "Assets/_Scripts/PlayerMovement.cs"
 "Assets/_Scripts/PlayerShooting.cs"
 "Assets/_Scripts/ScoreManager.cs"
+"Assets/_Scripts/WaveManager.cs"
 "Assets/_Scripts/WaveSpawner.cs"
 -langversion:8.0
 
