@@ -12,7 +12,7 @@ public class GameModeWaves : MonoBehaviour
     [SerializeField]
     private Life baseLife;
     
-    private void Awake()
+    private void Start()
     {
         playerLife.onDeath.AddListener(CheckLoseCondition);
         baseLife.onDeath.AddListener(CheckLoseCondition);

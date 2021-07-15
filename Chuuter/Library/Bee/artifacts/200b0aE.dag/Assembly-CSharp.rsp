@@ -350,17 +350,23 @@
 "Assets/TutorialInfo/Scripts/Readme.cs"
 "Assets/_Scripts/Autodestroy.cs"
 "Assets/_Scripts/DamageOnContact.cs"
+"Assets/_Scripts/EnemiesUI.cs"
 "Assets/_Scripts/Enemy.cs"
 "Assets/_Scripts/EnemyManager.cs"
 "Assets/_Scripts/GameModeWaves.cs"
 "Assets/_Scripts/Life.cs"
+"Assets/_Scripts/LifeBar.cs"
 "Assets/_Scripts/MoveForward.cs"
 "Assets/_Scripts/ObjectPool.cs"
+"Assets/_Scripts/Pause.cs"
+"Assets/_Scripts/PlayerBulletsUI.cs"
 "Assets/_Scripts/PlayerMovement.cs"
 "Assets/_Scripts/PlayerShooting.cs"
 "Assets/_Scripts/ScoreManager.cs"
+"Assets/_Scripts/ScoreUI.cs"
 "Assets/_Scripts/WaveManager.cs"
 "Assets/_Scripts/WaveSpawner.cs"
+"Assets/_Scripts/WavesUI.cs"
 -langversion:8.0
 
 /deterministic
