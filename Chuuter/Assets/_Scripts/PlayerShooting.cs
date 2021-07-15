@@ -2,17 +2,24 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Experimental.GlobalIllumination;
 
 
 public class PlayerShooting : MonoBehaviour
 {
     public GameObject shootingPoint;
 
+    public ParticleSystem fireEffect;
+
+    public AudioSource shootSound;
+    
     private Animator _animator;
 
     public int bulletsAmount;
 
+    public float fireRate = 0.5f;
+    private float lastShootTime;
+    
     private void Awake()
     {
         _animator = GetComponent<Animator>();
@@ -23,13 +30,31 @@ public class PlayerShooting : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Mouse0) && Time.timeScale > 0)
+        if (Input.GetKey(KeyCode.Mouse0) && Time.timeScale > 0)
         {
-            _animator.SetTrigger("Shot Bullet");
+            //_animator.SetTrigger("Shot Bullet");
+            _animator.SetBool("Shot Bullet Bool", true);
             if (bulletsAmount > 0)
             {
+
+                var timeSinceLastShoot = Time.time - lastShootTime;
+                if (timeSinceLastShoot < fireRate)
+                {
+                    return;
+                }
+
+                lastShootTime = Time.time;
+                
                 Invoke("FireBullet", 0.25f);
             }
+            else
+            {
+                //TODO: aqui no tengo balas, buscar sonido acorde a ello
+            }
+        }
+        else
+        {
+            _animator.SetBool("Shot Bullet Bool", false);
         }
     }
 
@@ -41,7 +66,17 @@ public class PlayerShooting : MonoBehaviour
         bullet.transform.rotation = shootingPoint.transform.rotation;
         bullet.SetActive(true);
         
+        fireEffect.Play();
+        
+        Instantiate(shootSound, transform.position, transform.rotation).
+            GetComponent<AudioSource>().Play();
+        //shootSound.Play();
+        
         bulletsAmount--;
+        if (bulletsAmount<0)
+        {
+            bulletsAmount = 0;
+        }
     }
     
 }

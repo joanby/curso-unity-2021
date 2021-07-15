@@ -17,15 +17,17 @@ public class PlayerMovement : MonoBehaviour
     public float rotationSpeed;
 
 
-    private Rigidbody rb;
-    
+    private Rigidbody _rb;
+
+    private Animator _animator;
     
     void Start()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
 
-        rb = GetComponent<Rigidbody>();
+        _rb = GetComponent<Rigidbody>();
+        _animator = GetComponent<Animator>();
     }
 
 
@@ -40,14 +42,39 @@ public class PlayerMovement : MonoBehaviour
         Vector3 dir = new Vector3(horizontal, 0, vertical);
         //transform.Translate(dir.normalized*space);
         //FUERZA DE TRANSLACIÓN
-        rb.AddRelativeForce(dir.normalized*space);
+        _rb.AddRelativeForce(dir.normalized*space);
         
         
         float angle = rotationSpeed * Time.deltaTime;
         float mouseX = Input.GetAxis("Mouse X"); // -1 a 1
         //transform.Rotate(0,mouseX*angle,0);
         //FUERZA DE ROTACIÓN <-> TORQUE
-        rb.AddRelativeTorque(0,mouseX*angle,0);
+        _rb.AddRelativeTorque(0,mouseX*angle,0);
+        
+        
+        _animator.SetFloat("Velocity", _rb.velocity.magnitude);
+        /*
+         TODO: ajustar animaciones si quieren usarse la de caminar vs la de correr
+        _animator.SetFloat("Move X", horizontal);
+        _animator.SetFloat("Move Y", vertical);
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            _animator.SetFloat("Velocity", _rb.velocity.magnitude);
+        }
+        else
+        {
+            if (Mathf.Abs(horizontal)<0.01f && Mathf.Abs(vertical)<0.01f)
+            {
+                _animator.SetFloat("Velocity", 0);
+            }
+            else
+            {
+                _animator.SetFloat("Velocity", 0.15f);
+            }
+        }
+        */
+        
         
         
         /*
