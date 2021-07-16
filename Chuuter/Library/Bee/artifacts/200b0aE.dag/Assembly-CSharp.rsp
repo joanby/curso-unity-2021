@@ -364,6 +364,7 @@
 "Assets/_Scripts/PlayerShooting.cs"
 "Assets/_Scripts/ScoreManager.cs"
 "Assets/_Scripts/ScoreUI.cs"
+"Assets/_Scripts/Sight.cs"
 "Assets/_Scripts/WaveManager.cs"
 "Assets/_Scripts/WaveSpawner.cs"
 "Assets/_Scripts/WavesUI.cs"
