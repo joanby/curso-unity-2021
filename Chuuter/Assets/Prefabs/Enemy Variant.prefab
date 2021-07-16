@@ -259,6 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3416839299417314134}
   - component: {fileID: 759994080741985374}
+  - component: {fileID: 5613677762723763874}
   m_Layer: 9
   m_Name: AI
   m_TagString: Untagged
@@ -301,6 +302,22 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   detectedTarget: {fileID: 0}
+--- !u!114 &5613677762723763874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9131783447047111498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a511c59b87541442fae1e483dc9e32ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+  baseTransform: {fileID: 0}
+  baseAttackDistance: 2
+  playerAttackDistance: 3
 --- !u!1001 &2908479206269133228
 PrefabInstance:
   m_ObjectHideFlags: 0

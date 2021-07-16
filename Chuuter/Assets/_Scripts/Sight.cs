@@ -34,11 +34,16 @@ public class Sight : MonoBehaviour
             if (angleToCollider < angle)
             {
                 //Comprobamos que en la línea de visión enemigo -> objetivo no haya obstáculos
-                if (!Physics.Linecast(transform.position, collider.bounds.center, obstacleLayers))
+                if (!Physics.Linecast(transform.position, collider.bounds.center, out RaycastHit hit, obstacleLayers))
                 {
+                    Debug.DrawLine(transform.position, collider.bounds.center, Color.green);
                     //Guardamos la referencia del objetivo detectado
                     detectedTarget = collider;
                     break;
+                }
+                else //Hay hit
+                {
+                    Debug.DrawLine(transform.position, hit.point, Color.red);
                 }
             }
         }
@@ -51,5 +56,19 @@ public class Sight : MonoBehaviour
             //TODO: hacer cosas al collider
         }*/
         
+    }
+    
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, distance);
+
+        Gizmos.color = Color.magenta;
+        Vector3 rightDir = Quaternion.Euler(0, angle, 0)*transform.forward;
+        Gizmos.DrawRay(transform.position, rightDir*distance);
+        
+        Vector3 leftDir = Quaternion.Euler(0, -angle, 0)*transform.forward;
+        Gizmos.DrawRay(transform.position, leftDir*distance);
+ 
     }
 }
