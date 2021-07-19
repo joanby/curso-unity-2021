@@ -23,11 +23,8 @@ public class EnemyFSM : MonoBehaviour
 
     private Animator animator;
 
-    private float lastShootTime;
+    public Weapon weapon;
     
-    public float shootRate;
-
-    public GameObject shootingPoint;
     
     private void Awake()
     {
@@ -143,24 +140,12 @@ public class EnemyFSM : MonoBehaviour
 
     void ShootTarget()
     {
-        if (Time.timeScale>0)
+        if (weapon.ShootBullet("Enemy Bullet", 0))
         {
-            var timeSinceLastShoot = Time.time - lastShootTime;
-            if (timeSinceLastShoot < shootRate)
-            {
-                return;
-            }
-
             animator.SetBool("Shot Bullet Bool", true);
-            
-            lastShootTime = Time.time;
-            var bullet = ObjectPool.SharedInstance.GetFirstPooledObject();
-            bullet.layer = LayerMask.NameToLayer("Enemy Bullet");
-            bullet.transform.position = shootingPoint.transform.position;
-            bullet.transform.rotation = shootingPoint.transform.rotation;
-            bullet.SetActive(true);
-            
         }
+       
+
     }
 
     private void LookAt(Vector3 targetPos)

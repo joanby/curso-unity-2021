@@ -371,6 +371,7 @@
 "Assets/_Scripts/WaveManager.cs"
 "Assets/_Scripts/WaveSpawner.cs"
 "Assets/_Scripts/WavesUI.cs"
+"Assets/_Scripts/Weapon.cs"
 -langversion:8.0
 
 /deterministic
