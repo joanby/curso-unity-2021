@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
@@ -13,7 +14,7 @@ public class PlayerController : MonoBehaviour
 
     private Animator _animator;
 
-    public LayerMask solidObjectsLayer;
+    public LayerMask solidObjectsLayer, pokemonLayer;
 
     void Awake()
     {
@@ -72,7 +73,9 @@ public class PlayerController : MonoBehaviour
         
         transform.position = destination;
         isMoving = false;
-        
+
+        CheckForPokemon();
+
     }
 
 /// <summary>
@@ -88,6 +91,20 @@ public class PlayerController : MonoBehaviour
         }
 
         return true;
+    }
+
+
+
+
+    private void CheckForPokemon()
+    {
+        if (Physics2D.OverlapCircle(transform.position, 0.2f, pokemonLayer)!=null)
+        {
+            if (Random.Range(0, 100) < 15)
+            {
+                Debug.Log("Empezar Batalla Pokemon");
+            }
+        }
     }
 
 }
