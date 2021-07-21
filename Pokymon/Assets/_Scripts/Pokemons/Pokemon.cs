@@ -21,5 +21,5 @@ public class Pokemon
     public int SpAttack => Mathf.FloorToInt((_base.SpAttack*_level)/100.0f)+2;
     public int SpDefense => Mathf.FloorToInt((_base.SpDefense*_level)/100.0f)+2;
     public int Speed => Mathf.FloorToInt((_base.Speed*_level)/100.0f)+2;
-
+    
 }
