@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -18,10 +19,28 @@ public class GameOver : MonoBehaviour
 
         if (playerHasWon)
         {
-            actualScore.text = "Score: " + PlayerPrefs.GetInt("Last Score");
-            actualTime.text = "Time: " + PlayerPrefs.GetFloat("Last Time");
-            bestScore.text = "Best: " + PlayerPrefs.GetInt("High Score");
-            bestTime.text = "Best: " + PlayerPrefs.GetFloat("Low Time"); 
+            int score = PlayerPrefs.GetInt("Last Score");
+            float time = PlayerPrefs.GetFloat("Last Time");
+            
+            actualScore.text = string.Format("Score: {0}", score);
+            actualTime.text = string.Format("Time: {0}", time);
+            
+            StringBuilder builder = new StringBuilder();
+            builder.Append("Best: ");
+            builder.Append(PlayerPrefs.GetInt("High Score"));
+            bestScore.text = builder.ToString();
+            
+            //string s = "Mi" + "nombre" + "es" + "Juan" + "Gabriel";
+
+            builder.Clear();
+            builder.Append("Best: ");
+            builder.Append(PlayerPrefs.GetFloat("Low Time"));
+            bestTime.text = builder.ToString(); 
+            
+            print($"La partida ha terminado con {score} puntos en {time} segundos");
+
+            string msg = $"Esto es un mensaje de {score} puntos";
+
         }
         
 

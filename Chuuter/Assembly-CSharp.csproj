@@ -41,10 +41,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
      <Compile Include="Assets\_Scripts\Pause.cs" />
+     <Compile Include="Assets\_Scripts\NavMeshAnimator.cs" />
      <Compile Include="Assets\_Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+     <Compile Include="Assets\_Scripts\Weapon.cs" />
      <Compile Include="Assets\_Scripts\PlayerShooting.cs" />
      <Compile Include="Assets\_Scripts\ScoreManager.cs" />
      <Compile Include="Assets\_Scripts\PlayerBulletsUI.cs" />
@@ -56,6 +57,7 @@
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Sprites\Sci-Fi UI\Demo_Assets\scripts\GUI_Demo.cs" />
      <Compile Include="Assets\_Scripts\WavesUI.cs" />
+     <Compile Include="Assets\_Scripts\GameOver.cs" />
      <Compile Include="Assets\_Scripts\WaveManager.cs" />
      <Compile Include="Assets\_Scripts\EnemiesUI.cs" />
      <Compile Include="Assets\_Scripts\ObjectPool.cs" />
@@ -66,9 +68,6 @@
      <Compile Include="Assets\_Scripts\GameModeWaves.cs" />
      <Compile Include="Assets\_Scripts\DamageOnContact.cs" />
      <Compile Include="Assets\_Scripts\Life.cs" />
-     <Compile Include="Assets\_Scripts\NavMeshAnimator.cs" />
-     <Compile Include="Assets\_Scripts\GameOver.cs" />
-     <Compile Include="Assets\_Scripts\Weapon.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
