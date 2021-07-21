@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
 
     private Animator _animator;
 
+    public LayerMask solidObjectsLayer;
+
     void Awake()
     {
         _animator = GetComponent<Animator>();
@@ -42,7 +44,11 @@ public class PlayerController : MonoBehaviour
                 targetPosition.x += input.x;
                 targetPosition.y += input.y;
 
-                StartCoroutine(MoveTowards(targetPosition));
+                if (IsAvailable(targetPosition))
+                {
+                    StartCoroutine(MoveTowards(targetPosition));
+                }
+                
             }
         }
     }
@@ -66,6 +72,22 @@ public class PlayerController : MonoBehaviour
         
         transform.position = destination;
         isMoving = false;
+        
     }
-    
+
+/// <summary>
+/// El método comprueba que la zona a la que queremos acceder, esté disponible
+/// </summary>
+/// <param name="target">Zona a la que queremos acceder</param>
+/// <returns>Devuelve true, si el target está disponible y false  en caso contrario</returns>
+    private bool IsAvailable(Vector3 target)
+    {
+        if (Physics2D.OverlapCircle(target, 0.2f, solidObjectsLayer)!=null)
+        {
+            return false;
+        }
+
+        return true;
+    }
+
 }
