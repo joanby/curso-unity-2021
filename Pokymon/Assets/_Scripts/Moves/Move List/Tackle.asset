@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee7c3af9116a24fe18c6b5895685f5b3, type: 3}
   m_Name: Tackle
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  type: 0
-  power: 0
-  accuracy: 0
-  pp: 0
+  name: Placaje
+  description: 'A physical attack in which the user charges and slams into the foe
+    with its whole body.
+
+'
+  type: 1
+  power: 49
+  accuracy: 100
+  pp: 35

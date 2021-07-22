@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee7c3af9116a24fe18c6b5895685f5b3, type: 3}
   m_Name: Vine Whip
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  type: 0
-  power: 0
-  accuracy: 0
-  pp: 0
+  name: "L\xE1tigo Cepa"
+  description: 'The foe is struck with slender, whiplike vines to inflict damage.
+
+'
+  type: 5
+  power: 45
+  accuracy: 100
+  pp: 25

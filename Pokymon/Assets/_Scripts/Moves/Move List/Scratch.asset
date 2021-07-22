@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee7c3af9116a24fe18c6b5895685f5b3, type: 3}
   m_Name: Scratch
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  type: 0
-  power: 0
-  accuracy: 0
-  pp: 0
+  name: "Ara\xF1azo"
+  description: 'Hard, pointed, and sharp claws rake the foe to inflict damage.
+
+'
+  type: 1
+  power: 40
+  accuracy: 100
+  pp: 35

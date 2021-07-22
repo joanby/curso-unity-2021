@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee7c3af9116a24fe18c6b5895685f5b3, type: 3}
   m_Name: Ember
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  type: 0
-  power: 0
-  accuracy: 0
-  pp: 0
+  name: Ascuas
+  description: 'The foe is attacked with small flames. The target may also be left
+    with a burn.
+
+'
+  type: 2
+  power: 25
+  accuracy: 100
+  pp: 40

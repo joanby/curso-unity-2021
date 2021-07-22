@@ -6,7 +6,19 @@ public class Pokemon
 {
     
     private PokemonBase _base;
+
+    public PokemonBase Base
+    {
+        get => _base;
+    }
+
     private int _level;
+
+    public int Level
+    {
+        get => _level;
+        set => _level = value;
+    }
 
     private List<Move> _moves;
 

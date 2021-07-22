@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee7c3af9116a24fe18c6b5895685f5b3, type: 3}
   m_Name: Growl
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  type: 0
+  name: "Gru\xF1ido"
+  description: The user growls in an endearing way, making the foe less wary. The
+    target's Attack stat is lowered.
+  type: 1
   power: 0
-  accuracy: 0
-  pp: 0
+  accuracy: 100
+  pp: 40

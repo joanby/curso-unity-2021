@@ -12,16 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 188606b04dcb544c29f84c3b74e3c35e, type: 3}
   m_Name: Squirtle
   m_EditorClassIdentifier: 
-  ID: 0
-  name: 
-  description: 
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
-  type1: 0
+  ID: 7
+  name: Squirtle
+  description: "Se protege con su caparaz\xF3n y luego contraataca lanzando agua
+    a presi\xF3n cuando tiene oportunidad."
+  frontSprite: {fileID: 21300000, guid: 29c97083355034f11b735edb17dbbe75, type: 3}
+  backSprite: {fileID: 21300000, guid: f21faae20dff04d4682e737e67d94943, type: 3}
+  type1: 3
   type2: 0
-  maxHP: 0
-  attack: 0
-  defense: 0
-  spAttack: 0
-  spDefense: 0
-  speed: 0
+  maxHP: 44
+  attack: 48
+  defense: 65
+  spAttack: 50
+  spDefense: 64
+  speed: 43
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 25450aa19126d4eb8989299563323507, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8117364aa6cb34c4abdb151db7f81534, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: f0e996f0bd00b4f9091f8426f26828bf, type: 2}
+    level: 7
