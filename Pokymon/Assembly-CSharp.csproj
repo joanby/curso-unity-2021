@@ -48,6 +48,9 @@
      <Compile Include="Assets\_Scripts\Moves\Move.cs" />
      <Compile Include="Assets\_Scripts\Battle\HealthBar.cs" />
      <Compile Include="Assets\_Scripts\Battle\BattleHUD.cs" />
+     <Compile Include="Assets\_Scripts\Battle\BattleUnit.cs" />
+     <Compile Include="Assets\_Scripts\Battle\BattleManager.cs" />
+     <Compile Include="Assets\_Scripts\Battle\BattleDialogBox.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
