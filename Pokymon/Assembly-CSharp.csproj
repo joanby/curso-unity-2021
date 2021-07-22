@@ -45,6 +45,7 @@
      <Compile Include="Assets\_Scripts\Pokemons\PokemonBase.cs" />
      <Compile Include="Assets\_Scripts\Pokemons\Pokemon.cs" />
      <Compile Include="Assets\_Scripts\Moves\MoveBase.cs" />
+     <Compile Include="Assets\_Scripts\Moves\Move.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
