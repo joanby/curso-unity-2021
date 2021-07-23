@@ -302,6 +302,8 @@
 -r:"/Applications/Unity/Hub/Editor/2021.1.12f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
 -r:"/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
 -r:"/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Animation.Runtime.ref.dll"
