@@ -42,12 +42,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
      <None Include="Assets\Plugins\Demigiant\DOTween\readme.txt" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -280,14 +280,14 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
+     <Reference Include="DOTween">
+     <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="DOTween">
-     <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.12f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

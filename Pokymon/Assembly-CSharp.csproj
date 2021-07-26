@@ -41,16 +41,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Scripts\PlayerController.cs" />
-     <Compile Include="Assets\_Scripts\Pokemons\PokemonBase.cs" />
-     <Compile Include="Assets\_Scripts\Pokemons\Pokemon.cs" />
-     <Compile Include="Assets\_Scripts\Moves\MoveBase.cs" />
-     <Compile Include="Assets\_Scripts\Moves\Move.cs" />
-     <Compile Include="Assets\_Scripts\Battle\HealthBar.cs" />
-     <Compile Include="Assets\_Scripts\Battle\BattleHUD.cs" />
-     <Compile Include="Assets\_Scripts\Battle\BattleUnit.cs" />
      <Compile Include="Assets\_Scripts\Battle\BattleManager.cs" />
      <Compile Include="Assets\_Scripts\Battle\BattleDialogBox.cs" />
+     <Compile Include="Assets\_Scripts\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\Moves\Move.cs" />
+     <Compile Include="Assets\_Scripts\Moves\MoveBase.cs" />
+     <Compile Include="Assets\_Scripts\Battle\HealthBar.cs" />
+     <Compile Include="Assets\_Scripts\Battle\BattleUnit.cs" />
+     <Compile Include="Assets\_Scripts\Battle\BattleHUD.cs" />
+     <Compile Include="Assets\_Scripts\Pokemons\PokemonBase.cs" />
+     <Compile Include="Assets\_Scripts\Pokemons\Pokemon.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -282,14 +282,14 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
+     <Reference Include="DOTween">
+     <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="DOTween">
-     <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.12f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
