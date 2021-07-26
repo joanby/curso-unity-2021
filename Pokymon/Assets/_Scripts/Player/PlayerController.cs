@@ -16,12 +16,14 @@ public class PlayerController : MonoBehaviour
 
     public LayerMask solidObjectsLayer, pokemonLayer;
 
+    public event Action OnPokemonEncountered;
+
     void Awake()
     {
         _animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    public void HandleUpdate()
     {
         if (!isMoving)
         {
@@ -102,7 +104,8 @@ public class PlayerController : MonoBehaviour
         {
             if (Random.Range(0, 100) < 15)
             {
-                Debug.Log("Empezar Batalla Pokemon");
+                //TODO: Si no se para, forzar animación IsMoving = false;
+                OnPokemonEncountered();
             }
         }
     }

@@ -43,7 +43,7 @@
   <ItemGroup>
      <Compile Include="Assets\_Scripts\Battle\BattleManager.cs" />
      <Compile Include="Assets\_Scripts\Battle\BattleDialogBox.cs" />
-     <Compile Include="Assets\_Scripts\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\_Scripts\Moves\Move.cs" />
      <Compile Include="Assets\_Scripts\Moves\MoveBase.cs" />
      <Compile Include="Assets\_Scripts\Battle\HealthBar.cs" />
@@ -51,6 +51,7 @@
      <Compile Include="Assets\_Scripts\Battle\BattleHUD.cs" />
      <Compile Include="Assets\_Scripts\Pokemons\PokemonBase.cs" />
      <Compile Include="Assets\_Scripts\Pokemons\Pokemon.cs" />
+     <Compile Include="Assets\_Scripts\GameManager.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

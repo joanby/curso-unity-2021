@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,13 +19,25 @@ public class BattleHUD : MonoBehaviour
         
         pokemonName.text = pokemon.Base.Name;
         pokemonLevel.text = $"Lv {pokemon.Level}";
-        //Si con el Update se ve mal, actualizar vida aqui al inicio de batalla.
-        UpdatePokemonData();
+        healthbar.SetHP((float)_pokemon.HP / _pokemon.MaxHP);
+        UpdatePokemonData(pokemon.HP);
     }
 
-    public void UpdatePokemonData()
+    public void UpdatePokemonData(int oldHPVal)
     {
         StartCoroutine(healthbar.SetSmoothHP((float)_pokemon.HP / _pokemon.MaxHP));
+        StartCoroutine(DecreaseHealthPoints(oldHPVal));
+    }
+
+    private IEnumerator DecreaseHealthPoints(int oldHPVal)
+    {
+        while (oldHPVal>_pokemon.HP)
+        {
+            oldHPVal--;
+            pokemonHealth.text = $"{oldHPVal}/{_pokemon.MaxHP}";
+            yield return new WaitForSeconds(0.1f);
+        }
         pokemonHealth.text = $"{_pokemon.HP}/{_pokemon.MaxHP}";
     }
+    
 }

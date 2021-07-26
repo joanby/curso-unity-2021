@@ -23,8 +23,10 @@ public class BattleManager : MonoBehaviour
    [SerializeField] BattleDialogBox battleDialogBox;
 
    public BattleState state;
+
+   public event Action<bool> OnBattleFinish;
    
-   private void Start()
+   public void HandleStartBattle()
    {
       StartCoroutine(SetupBattle());
    }
@@ -75,28 +77,8 @@ public class BattleManager : MonoBehaviour
       battleDialogBox.SelectMovement(currentSelectedMovement, playerUnit.Pokemon.Moves[currentSelectedMovement]);
    }
 
-   IEnumerator EnemyAction()
-   {
-      state = BattleState.EnemyMove;
 
-      Move move = enemyUnit.Pokemon.RandomMove();
-      yield return battleDialogBox.SetDialog($"{enemyUnit.Pokemon.Base.Name} ha usado {move.Base.Name}.");
-
-      bool pokemonFainted = playerUnit.Pokemon.ReceiveDamage(enemyUnit.Pokemon, move);
-      playerHUD.UpdatePokemonData();
-      
-      if (pokemonFainted)
-      {
-         yield return battleDialogBox.SetDialog($"{playerUnit.Pokemon.Base.Name} ha sido debilitado.");
-      }
-      else
-      {
-         PlayerAction();
-      }
-
-   }
-
-   private void Update()
+   public void HandleUpdate()
    {
       timeSinceLastClick += Time.deltaTime;
 
@@ -207,19 +189,84 @@ public class BattleManager : MonoBehaviour
    IEnumerator PerformPlayerMovement()
    {
       Move move = playerUnit.Pokemon.Moves[currentSelectedMovement];
+      move.Pp--;
       yield return battleDialogBox.SetDialog($"{playerUnit.Pokemon.Base.Name} ha usado {move.Base.Name}");
 
-      bool pokemonFainted = enemyUnit.Pokemon.ReceiveDamage(playerUnit.Pokemon, move);
-      enemyHUD.UpdatePokemonData();
+      var oldHPVal = enemyUnit.Pokemon.HP;
       
-      if (pokemonFainted)
+      playerUnit.PlayAttackAnimation();
+      yield return new WaitForSeconds(1f);
+      enemyUnit.PlayReceiveAttackAnimation();
+
+      var damageDesc = enemyUnit.Pokemon.ReceiveDamage(playerUnit.Pokemon, move);
+      enemyHUD.UpdatePokemonData(oldHPVal);
+      yield return ShowDamageDescription(damageDesc);
+      
+      if (damageDesc.Fainted)
       {
          yield return battleDialogBox.SetDialog($"{enemyUnit.Pokemon.Base.Name} se ha debilitado");
+         enemyUnit.PlayFaintAnimation();
+         yield return new WaitForSeconds(1.5f);
+         
+         OnBattleFinish(true);
       }
       else
       {
          StartCoroutine(EnemyAction());
       }
 
+   }
+   
+   
+   
+   IEnumerator EnemyAction()
+   {
+      state = BattleState.EnemyMove;
+
+      Move move = enemyUnit.Pokemon.RandomMove();
+      move.Pp--;
+      yield return battleDialogBox.SetDialog($"{enemyUnit.Pokemon.Base.Name} ha usado {move.Base.Name}.");
+
+      var oldHPVal = playerUnit.Pokemon.HP;
+      
+      enemyUnit.PlayAttackAnimation();
+      yield return new WaitForSeconds(1f);
+      playerUnit.PlayReceiveAttackAnimation();
+
+      var damageDesc = playerUnit.Pokemon.ReceiveDamage(enemyUnit.Pokemon, move);
+      playerHUD.UpdatePokemonData(oldHPVal);
+      yield return ShowDamageDescription(damageDesc);
+      
+      if (damageDesc.Fainted)
+      {
+         yield return battleDialogBox.SetDialog($"{playerUnit.Pokemon.Base.Name} ha sido debilitado.");
+         playerUnit.PlayFaintAnimation();
+         
+         yield return new WaitForSeconds(1.5f);
+         OnBattleFinish(false);
+      }
+      else
+      {
+         PlayerAction();
+      }
+
+   }
+
+
+   IEnumerator ShowDamageDescription(DamageDescription desc)
+   {
+      if (desc.Critical > 1f)
+      {
+         yield return battleDialogBox.SetDialog("¡Un golpe crítico!");
+      }
+
+      if (desc.Type > 1)
+      {
+         yield return battleDialogBox.SetDialog("¡Es super efectivo!");
+      }else if (desc.Type < 1)
+      {
+         yield return battleDialogBox.SetDialog("No es muy efectivo...");
+      }
+      
    }
 }
