@@ -18,7 +18,7 @@ MonoBehaviour:
     sano, arder\xE1 con m\xE1s fuerza."
   frontSprite: {fileID: 21300000, guid: 25d10889f65c84a0bad7674a70cf59ca, type: 3}
   backSprite: {fileID: 21300000, guid: 1c6b371da21284a03a60e6f17155a3fa, type: 3}
-  type1: 2
+  type1: 7
   type2: 0
   maxHP: 39
   attack: 52

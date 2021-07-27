@@ -18,7 +18,7 @@ MonoBehaviour:
     a presi\xF3n cuando tiene oportunidad."
   frontSprite: {fileID: 21300000, guid: 29c97083355034f11b735edb17dbbe75, type: 3}
   backSprite: {fileID: 21300000, guid: f21faae20dff04d4682e737e67d94943, type: 3}
-  type1: 3
+  type1: 18
   type2: 0
   maxHP: 44
   attack: 48

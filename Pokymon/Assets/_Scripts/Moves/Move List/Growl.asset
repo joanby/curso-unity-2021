@@ -15,7 +15,7 @@ MonoBehaviour:
   name: "Gru\xF1ido"
   description: The user growls in an endearing way, making the foe less wary. The
     target's Attack stat is lowered.
-  type: 1
+  type: 13
   power: 0
   accuracy: 100
   pp: 40

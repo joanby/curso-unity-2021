@@ -52,6 +52,10 @@
      <Compile Include="Assets\_Scripts\Pokemons\PokemonBase.cs" />
      <Compile Include="Assets\_Scripts\Pokemons\Pokemon.cs" />
      <Compile Include="Assets\_Scripts\GameManager.cs" />
+     <Compile Include="Assets\_Scripts\Pokemons\PokemonParty.cs" />
+     <Compile Include="Assets\_Scripts\Pokemons\PokemonMapArea.cs" />
+     <Compile Include="Assets\_Scripts\Battle\PartyMemberHUD.cs" />
+     <Compile Include="Assets\_Scripts\Battle\PartyHUD.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

@@ -17,7 +17,7 @@ MonoBehaviour:
     with a burn.
 
 '
-  type: 2
+  type: 7
   power: 25
   accuracy: 100
   pp: 40

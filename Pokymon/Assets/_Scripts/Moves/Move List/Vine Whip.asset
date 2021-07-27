@@ -16,7 +16,7 @@ MonoBehaviour:
   description: 'The foe is struck with slender, whiplike vines to inflict damage.
 
 '
-  type: 5
+  type: 10
   power: 45
   accuracy: 100
   pp: 25

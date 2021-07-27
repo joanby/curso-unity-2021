@@ -17,7 +17,7 @@ MonoBehaviour:
     the target''s Speed stat.
 
 '
-  type: 3
+  type: 18
   power: 40
   accuracy: 100
   pp: 30

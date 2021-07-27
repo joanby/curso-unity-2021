@@ -17,7 +17,7 @@ MonoBehaviour:
     with its whole body.
 
 '
-  type: 1
+  type: 13
   power: 49
   accuracy: 100
   pp: 35

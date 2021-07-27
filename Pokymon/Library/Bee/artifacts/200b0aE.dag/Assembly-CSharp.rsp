@@ -348,12 +348,16 @@
 "Assets/_Scripts/Battle/BattleManager.cs"
 "Assets/_Scripts/Battle/BattleUnit.cs"
 "Assets/_Scripts/Battle/HealthBar.cs"
+"Assets/_Scripts/Battle/PartyHUD.cs"
+"Assets/_Scripts/Battle/PartyMemberHUD.cs"
 "Assets/_Scripts/GameManager.cs"
 "Assets/_Scripts/Moves/Move.cs"
 "Assets/_Scripts/Moves/MoveBase.cs"
 "Assets/_Scripts/Player/PlayerController.cs"
 "Assets/_Scripts/Pokemons/Pokemon.cs"
 "Assets/_Scripts/Pokemons/PokemonBase.cs"
+"Assets/_Scripts/Pokemons/PokemonMapArea.cs"
+"Assets/_Scripts/Pokemons/PokemonParty.cs"
 -langversion:8.0
 
 /deterministic

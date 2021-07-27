@@ -97,19 +97,17 @@ public class TypeMatrix
     /*WAT*/ new float[] {1.0f, 1.0f, 1.0f, 0.5f, 1.0f, 1.0f, 1.0f, 2.0f, 1.0f, 1.0f, 0.5f, 2.0f, 1.0f, 1.0f, 1.0f, 1.0f, 2.0f, 1.0f, 0.5f}
 };
 
-
-
     public static float GetMultEffectiveness(PokemonType attackType, PokemonType pokemonDefenderType)
     {
-        if (attackType == PokemonType.None || pokemonDefenderType == PokemonType.None)
+        /*if (attackType == PokemonType.None || pokemonDefenderType == PokemonType.None)
         {
             return 1.0f;
-        }
+        }*/
 
         int row = (int) attackType;
         int col = (int) pokemonDefenderType;
 
-        return matrix[row - 1][col - 1];
+        return matrix[row][col];
 
     }
 

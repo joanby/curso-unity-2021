@@ -16,7 +16,7 @@ MonoBehaviour:
   description: 'Hard, pointed, and sharp claws rake the foe to inflict damage.
 
 '
-  type: 1
+  type: 13
   power: 40
   accuracy: 100
   pp: 35
