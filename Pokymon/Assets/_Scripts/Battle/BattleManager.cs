@@ -7,9 +7,10 @@ public enum BattleState
 {
    StartBattle,
    PlayerSelectAction,
-   PlayerMove,
+   PlayerSelectMove,
    EnemyMove,
-   Busy
+   Busy, 
+   PartySelectScreen
 }
 
 public class BattleManager : MonoBehaviour
@@ -22,12 +23,16 @@ public class BattleManager : MonoBehaviour
 
    [SerializeField] BattleDialogBox battleDialogBox;
 
+   [SerializeField] PartyHUD partyHUD;
+   
    public BattleState state;
 
    public event Action<bool> OnBattleFinish;
 
    private PokemonParty playerParty;
    private Pokemon wildPokemon;
+   
+   
    
    public void HandleStartBattle(PokemonParty playerParty, Pokemon wildPokemon)
    {
@@ -48,6 +53,8 @@ public class BattleManager : MonoBehaviour
       enemyUnit.SetupPokemon(wildPokemon);
       enemyHUD.SetPokemonData(enemyUnit.Pokemon);
       
+      partyHUD.InitPartyHUD();
+
       yield return battleDialogBox.SetDialog($"Un {enemyUnit.Pokemon.Base.Name} salvaje apareció.");
 
       if (enemyUnit.Pokemon.Speed > playerUnit.Pokemon.Speed)
@@ -74,7 +81,7 @@ public class BattleManager : MonoBehaviour
 
    void PlayerMovement()
    {
-      state = BattleState.PlayerMove;
+      state = BattleState.PlayerSelectMove;
       battleDialogBox.ToggleDialogText(false);
       battleDialogBox.ToggleActions(false);
       battleDialogBox.ToggleMovements(true);
@@ -95,9 +102,12 @@ public class BattleManager : MonoBehaviour
       if (state == BattleState.PlayerSelectAction)
       {
          HandlePlayerActionSelection();
-      }else if (state == BattleState.PlayerMove)
+      }else if (state == BattleState.PlayerSelectMove)
       {
          HandlePlayerMovementSelection();
+      }else if (state == BattleState.PartySelectScreen)
+      {
+         HandlePlayerPartySelection();
       }
    }
    
@@ -322,11 +332,88 @@ public class BattleManager : MonoBehaviour
 
    void OpenPartySelectionScreen()
    {
-      print("Abrir la pantalla para seleccionar Pokemons");
-      
+      state = BattleState.PartySelectScreen;
+      partyHUD.SetPartyData(playerParty.Pokemons);
+      partyHUD.gameObject.SetActive(true);
+      currentSelectedPokemon = 0;
+      for (int i = 0; i < playerParty.Pokemons.Count; i++)
+      {
+         if (playerUnit.Pokemon == playerParty.Pokemons[i])
+         {
+            currentSelectedPokemon = i;
+         }
+      }
+      partyHUD.UpdateSelectedPokemon(currentSelectedPokemon);
+
+   }
+
+   private int currentSelectedPokemon;
+   void HandlePlayerPartySelection()
+   {
+      if (timeSinceLastClick < timeBetweenClicks)
+      {
+         return;
+      }
+
+      /// 0  1
+      /// 2  3
+      /// 4  5
+      if (Input.GetAxisRaw("Vertical")!=0)
+      {
+         timeSinceLastClick = 0;
+         currentSelectedPokemon -= (int)Input.GetAxisRaw("Vertical")*2;
+
+      } else if (Input.GetAxisRaw("Horizontal")!=0)
+      {
+         timeSinceLastClick = 0;
+         currentSelectedPokemon += (int)Input.GetAxisRaw("Horizontal");
+      }
+
+      currentSelectedPokemon = Mathf.Clamp(currentSelectedPokemon,
+         0, playerParty.Pokemons.Count - 1);
+      partyHUD.UpdateSelectedPokemon(currentSelectedPokemon);
+
+      if (Input.GetAxisRaw("Submit")!=0)
+      {
+         timeSinceLastClick = 0;
+         var selectedPokemon = playerParty.Pokemons[currentSelectedPokemon];
+         if (selectedPokemon.HP <= 0)
+         {
+            partyHUD.SetMessage("No puedes enviar un pokemon debilitado");
+            return;
+         }
+         else if (selectedPokemon == playerUnit.Pokemon)
+         {
+            partyHUD.SetMessage("No puedes seleccionar el pokemon en batalla");
+            return;
+         }
+
+         partyHUD.gameObject.SetActive(false);
+         state = BattleState.Busy;
+         StartCoroutine(SwitchPokemon(selectedPokemon));
+      }
+
       if (Input.GetAxisRaw("Cancel")!=0)
       {
+         partyHUD.gameObject.SetActive(false);
          PlayerAction();
       }
+
    }
+
+
+   IEnumerator SwitchPokemon(Pokemon newPokemon)
+   {
+      yield return battleDialogBox.SetDialog($"¡Vuelve {playerUnit.Pokemon.Base.Name}!");
+      playerUnit.PlayFaintAnimation();
+      yield return new WaitForSeconds(1.5f);
+      
+      playerUnit.SetupPokemon(newPokemon);
+      playerHUD.SetPokemonData(newPokemon);
+      battleDialogBox.SetPokemonMovements(newPokemon.Moves);
+      
+      yield return battleDialogBox.SetDialog($"¡Ve {newPokemon.Base.Name}!");
+      StartCoroutine(EnemyAction());
+   }
+   
 }

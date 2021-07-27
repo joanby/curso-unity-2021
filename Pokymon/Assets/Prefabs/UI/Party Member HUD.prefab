@@ -93,6 +93,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9a4ad9d0d41942098a209b1af3e79f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameText: {fileID: 6838230276723481966}
+  lvlText: {fileID: 5826368922576891214}
+  typeText: {fileID: 7647377913486879156}
+  hpText: {fileID: 8663400397322193772}
+  healthBar: {fileID: 4642433465665929653}
+  pokemonImage: {fileID: 4447587083240389609}
+  selectedColor: {r: 0.3137255, g: 0.5803922, b: 0.5803922, a: 1}
 --- !u!1 &1265460218080113672
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,8 +134,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.5, y: 3.4}
-  m_SizeDelta: {x: 144.42, y: 30.54}
+  m_AnchoredPosition: {x: 0.00018310547, y: 4.1}
+  m_SizeDelta: {x: 213.51, y: 29.96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4992197004007283181
 CanvasRenderer:
@@ -417,7 +424,7 @@ GameObject:
   - component: {fileID: 1255927641961689221}
   - component: {fileID: 4447587083240389609}
   m_Layer: 0
-  m_Name: Image
+  m_Name: Pokemon Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
