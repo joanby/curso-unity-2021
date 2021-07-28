@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -109,8 +110,17 @@ public class Pokemon
 
     public Move RandomMove()
     {
-        int randId = Random.Range(0, Moves.Count);
-        return Moves[randId];
+        
+        var movesWithPP = Moves.Where(m => m.Pp > 0).ToList();
+        if (movesWithPP.Count>0)
+        {
+            int randId = Random.Range(0, movesWithPP.Count);
+            return movesWithPP[randId];
+        }
+        
+        //NO HAY PPs en ningún ataque
+        //TODO: implementar combate, que hace daño al enemigo y a ti mismo
+        return null;
     }
     
     
