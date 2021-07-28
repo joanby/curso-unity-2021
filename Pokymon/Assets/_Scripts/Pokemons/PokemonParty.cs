@@ -25,5 +25,18 @@ public class PokemonParty : MonoBehaviour
     {
         return pokemons.Where(p => p.HP > 0).FirstOrDefault();
     }
+
+    public int GetPositionFromPokemon(Pokemon pokemon)
+    {
+        for (int i = 0; i < Pokemons.Count; i++)
+        {
+            if (pokemon == Pokemons[i])
+            {
+                return i;
+            }
+        }
+
+        return -1;
+    }
     
 }

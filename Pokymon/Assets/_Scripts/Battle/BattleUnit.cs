@@ -10,9 +10,11 @@ public class BattleUnit : MonoBehaviour
 {
   public PokemonBase _base;
   public int _level;
-  public bool isPlayer;
+  [SerializeField] bool isPlayer;
   
   public Pokemon Pokemon { get; set; }
+
+  public bool IsPlayer => isPlayer;
 
   private Image pokemonImage;
   private Vector3 initialPosition;
