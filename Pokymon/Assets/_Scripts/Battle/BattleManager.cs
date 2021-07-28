@@ -1,7 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
+using DG.Tweening;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public enum BattleState
 {
@@ -12,6 +15,7 @@ public enum BattleState
    Busy, 
    PartySelectScreen,
    ItemSelectScreen,
+   LoseTurn,
    FinishBattle
 }
 
@@ -24,9 +28,13 @@ public class BattleManager : MonoBehaviour
    [SerializeField] BattleDialogBox battleDialogBox;
 
    [SerializeField] PartyHUD partyHUD;
+
+   [SerializeField] GameObject pokeball;
    
    public BattleState state;
 
+   
+   
    public event Action<bool> OnBattleFinish;
 
    private PokemonParty playerParty;
@@ -115,8 +123,9 @@ public class BattleManager : MonoBehaviour
    
    void OpenInventoryScreen()
    {
+      //TODO: Implementar Inventario y lógica de ítems
       print("Abrir inventario");
-      
+      StartCoroutine(ThrowPokeball());
    }
 
 
@@ -138,6 +147,9 @@ public class BattleManager : MonoBehaviour
       }else if (state == BattleState.PartySelectScreen)
       {
          HandlePlayerPartySelection();
+      }else if (state == BattleState.LoseTurn)
+      {
+         StartCoroutine(PerformEnemyMovement());
       }
    }
    
@@ -405,6 +417,91 @@ public class BattleManager : MonoBehaviour
       
       yield return battleDialogBox.SetDialog($"¡Ve {newPokemon.Base.Name}!");
       StartCoroutine(PerformEnemyMovement());
+   }
+
+
+   IEnumerator ThrowPokeball()
+   {
+      state = BattleState.Busy;
+
+      yield return battleDialogBox.SetDialog($"Has lanzado una {pokeball.name}!");
+
+      var pokeballInst = Instantiate(pokeball, playerUnit.transform.position +
+                                               new Vector3(-2,0),
+                                                Quaternion.identity);
+
+      var pokeballSpt = pokeballInst.GetComponent<SpriteRenderer>();
+
+      yield return pokeballSpt.transform.DOLocalJump(enemyUnit.transform.position +
+                                        new Vector3(0, 1.5f), 2f, 
+                                       1, 1f).WaitForCompletion();
+      yield return enemyUnit.PlayCapturedAnimation();
+      yield return pokeballSpt.transform.DOLocalMoveY(enemyUnit.transform.position.y - 2f, 0.3f).WaitForCompletion();
+
+      var numberOfShakes = TryToCatchPokemon(enemyUnit.Pokemon);
+      for (int i = 0; i < Mathf.Min(numberOfShakes, 3); i++)
+      {
+         yield return new WaitForSeconds(0.5f);
+         yield return pokeballSpt.transform.DOPunchRotation(new Vector3(0, 0, 15f), 0.6f).WaitForCompletion();
+      }
+
+      if (numberOfShakes == 4)
+      {
+         yield return battleDialogBox.SetDialog($"¡{enemyUnit.Pokemon.Base.Name} capturado!");
+         yield return pokeballSpt.DOFade(0, 1.5f).WaitForCompletion();
+         
+         Destroy(pokeballInst);
+         BattleFinish(true);
+      }
+      else
+      {
+         yield return new WaitForSeconds(0.5f);
+         pokeballSpt.DOFade(0, 0.2f);
+         yield return enemyUnit.PlayBreakOutAnimation();
+
+         if (numberOfShakes <2)
+         {
+            yield return battleDialogBox.SetDialog($"¡{enemyUnit.Pokemon.Base.Name} ha escapado!");
+         }
+         else
+         {
+            yield return battleDialogBox.SetDialog("¡Casi lo has atrapado!");
+         }
+         Destroy(pokeballInst);
+         state = BattleState.LoseTurn;
+      }
+      
+   }
+
+
+   int TryToCatchPokemon(Pokemon pokemon)
+   {
+      float bonusPokeball = 1; // TODO: clase pokeball con su multiplicador
+      float bonusStat = 1;     //TODO: stats para chequear condición de modificación
+      float a = (3 * pokemon.MaxHP - 2 * pokemon.HP) * pokemon.Base.CatchRate * bonusPokeball * bonusStat/(3*pokemon.MaxHP);
+
+      if (a >= 255)
+      {
+         return 4;
+      }
+
+
+      float b = 1048560 / Mathf.Sqrt(Mathf.Sqrt(16711680/a));
+
+      int shakeCount = 0;
+      while (shakeCount<4)
+      {
+         if (Random.Range(0, 65535) >=b)
+         {
+            break;
+         }
+         else
+         {
+            shakeCount++;
+         }
+      }
+
+      return shakeCount;
    }
    
 }
