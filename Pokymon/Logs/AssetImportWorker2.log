@@ -1459,3 +1459,199 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015084 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.012 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3012ms)
+		BeginReloadAssembly (313ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (153ms)
+		EndReloadAssembly (2519ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1076ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (133ms)
+			SetupLoadedEditorAssemblies (797ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (621ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.8 MB.
+System memory in use after: 243.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4232.
+Total: 5.234965 ms (FindLiveObjects: 0.423798 ms CreateObjectMapping: 0.277163 ms MarkObjects: 4.397868 ms  DeleteObjects: 0.134684 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2218.209215 seconds.
+  path: Assets/Sprites/Items
+  artifactKey: Guid(81650d4202fc84a4f9d86cd5877ab932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items using Guid(81650d4202fc84a4f9d86cd5877ab932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62113561543817fa381c9c6079e734a3') in 0.013037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.185750 seconds.
+  path: Assets/Sprites/Items/20106.png
+  artifactKey: Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/20106.png using Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ca364fccedf0c8a22f48a5e77eed3d') in 1.661625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.965520 seconds.
+  path: Assets/Sprites/Items/balls.png
+  artifactKey: Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/balls.png using Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a0702c19d1373f64a0394fb52844a9') in 0.032359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.471415 seconds.
+  path: Assets/Sprites/Items/balls.png
+  artifactKey: Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/balls.png using Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d9ba30f3dd5a4628dd35fd8e502173') in 0.012995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.501858 seconds.
+  path: Assets/Sprites/Items/balls.png
+  artifactKey: Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/balls.png using Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f070a6e4b368cc01ca6312e05e63d4') in 0.098941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.737175 seconds.
+  path: Assets/Sprites/Items/balls.png
+  artifactKey: Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/balls.png using Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1631cae52af54831d866a6a0aaa613') in 0.083834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.609998 seconds.
+  path: Assets/Sprites/Items/balls.png
+  artifactKey: Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/balls.png using Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb33b429abb70d96627fd26292155c2') in 0.095424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.325975 seconds.
+  path: Assets/Sprites/Items/balls.png
+  artifactKey: Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/balls.png using Guid(085f2141748bb41ad8f60b4652028108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bda8fa9e479318db3bbed30e704312') in 0.092895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.607939 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082b785d1f77259d79566ef74a78f975') in 0.004352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 203.710139 seconds.
+  path: Assets/Prefabs/Game
+  artifactKey: Guid(784a9e28ddc314b019c9af331bf7f669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game using Guid(784a9e28ddc314b019c9af331bf7f669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df541b30cf33b91a35bf286eab2c3cb') in 0.003668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.021696 seconds.
+  path: Assets/Prefabs/Game/Items
+  artifactKey: Guid(db80a006aba284c689d26ce68f0f772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items using Guid(db80a006aba284c689d26ce68f0f772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beba102cda6d8e3990d2d8e443cb7f08') in 0.004720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.100683 seconds.
+  path: Assets/Prefabs/Game/Items/Pokeball.prefab
+  artifactKey: Guid(89fba8fa2b7b645a0afe5f6060699f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items/Pokeball.prefab using Guid(89fba8fa2b7b645a0afe5f6060699f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8499883443e1a9461df68ccc7ed237c5') in 0.911740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.718160 seconds.
+  path: Assets/Prefabs/Game/Items/Pokeball.prefab
+  artifactKey: Guid(89fba8fa2b7b645a0afe5f6060699f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items/Pokeball.prefab using Guid(89fba8fa2b7b645a0afe5f6060699f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9956d1ac19ddba9bd89e63a0916120e6') in 0.016667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.398365 seconds.
+  path: Assets/Prefabs/Game/Items/Pokeball.prefab
+  artifactKey: Guid(89fba8fa2b7b645a0afe5f6060699f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items/Pokeball.prefab using Guid(89fba8fa2b7b645a0afe5f6060699f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7927267a9f2c552d4dffd538699e051d') in 0.015279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.732670 seconds.
+  path: Assets/Prefabs/Game/Items/Pokeball 1.prefab
+  artifactKey: Guid(7ae44c4e38d94426aa2dfed6fbd854f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items/Pokeball 1.prefab using Guid(7ae44c4e38d94426aa2dfed6fbd854f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61687da5c11148e455d27ad97655dc80') in 0.014628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.166664 seconds.
+  path: Assets/Prefabs/Game/Items/Superball.prefab
+  artifactKey: Guid(7ae44c4e38d94426aa2dfed6fbd854f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items/Superball.prefab using Guid(7ae44c4e38d94426aa2dfed6fbd854f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebe60808d9a01561592fe1a80c7eb58') in 0.015747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.917114 seconds.
+  path: Assets/Prefabs/Game/Items/Superball.prefab
+  artifactKey: Guid(7ae44c4e38d94426aa2dfed6fbd854f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items/Superball.prefab using Guid(7ae44c4e38d94426aa2dfed6fbd854f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24942dfb6f46b5893d01df64980c554') in 0.014491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.759898 seconds.
+  path: Assets/Prefabs/Game/Items/Superball 1.prefab
+  artifactKey: Guid(b5c0a4a3180b844cdbfb892e33486317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items/Superball 1.prefab using Guid(b5c0a4a3180b844cdbfb892e33486317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca9fe33586c7bd7e3b35347908552ea') in 0.013683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.090085 seconds.
+  path: Assets/Prefabs/Game/Items/Ultraball.prefab
+  artifactKey: Guid(b5c0a4a3180b844cdbfb892e33486317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items/Ultraball.prefab using Guid(b5c0a4a3180b844cdbfb892e33486317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb01a9eff86e730b9874ea784f0ca0c6') in 0.016480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.745939 seconds.
+  path: Assets/Prefabs/Game/Items/Ultraball.prefab
+  artifactKey: Guid(b5c0a4a3180b844cdbfb892e33486317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items/Ultraball.prefab using Guid(b5c0a4a3180b844cdbfb892e33486317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ebb106d6a1a5edc351000b405f894c') in 0.019010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.893550 seconds.
+  path: Assets/Prefabs/Game/Items/Ultraball 1.prefab
+  artifactKey: Guid(ca257b1d4795c45c583846001c4a4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items/Ultraball 1.prefab using Guid(ca257b1d4795c45c583846001c4a4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a3b7c76087438ce5c84cbeb80354cc') in 0.014982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.145778 seconds.
+  path: Assets/Prefabs/Game/Items/Masterball.prefab
+  artifactKey: Guid(ca257b1d4795c45c583846001c4a4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items/Masterball.prefab using Guid(ca257b1d4795c45c583846001c4a4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e006c59fabc060692029e13f0b6ebfd') in 0.014589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.964751 seconds.
+  path: Assets/Prefabs/Game/Items/Masterball.prefab
+  artifactKey: Guid(ca257b1d4795c45c583846001c4a4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/Items/Masterball.prefab using Guid(ca257b1d4795c45c583846001c4a4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912846a932ea1b4e3c7a1e6293d53eaf') in 0.015501 seconds 
