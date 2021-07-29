@@ -42,10 +42,26 @@ public class Pokemon
         set => _hp = value;
     }
 
+    private int _experience;
+
+    public int Experience
+    {
+        get => _experience;
+        set => _experience = value;
+    }
+
+    public Pokemon(PokemonBase pBase, int pLevel)
+    {
+        _base = pBase;
+        _level = pLevel;
+        InitPokemon();
+    }
+
     public void InitPokemon()
     {
       
         _hp = MaxHP;
+        _experience = Base.GetNecessaryExpForLevel(_level);
         
         _moves = new List<Move>();
 

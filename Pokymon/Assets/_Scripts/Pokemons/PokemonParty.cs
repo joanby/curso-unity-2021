@@ -7,7 +7,11 @@ using UnityEngine;
 public class PokemonParty : MonoBehaviour
 {
     [SerializeField] private List<Pokemon> pokemons;
+    public const int NUM_MAX_POKEMON_IN_PARTY = 6;
 
+    //private List<List<Pokemon>> pcBillBoxes;
+    
+    
     public List<Pokemon> Pokemons
     {
         get => pokemons;
@@ -19,6 +23,12 @@ public class PokemonParty : MonoBehaviour
         {
             pokemon.InitPokemon();
         }
+        
+        /*var box = new List<Pokemon>(15);
+        for (int i = 0; i < 6; i++)
+        {
+            pcBillBoxes.Add(box);
+        }*/
     }
 
     public Pokemon GetFirstNonFaintedPokemon()
@@ -37,6 +47,20 @@ public class PokemonParty : MonoBehaviour
         }
 
         return -1;
+    }
+
+    public bool AddPokemonToParty(Pokemon pokemon)
+    {
+        if (pokemons.Count < NUM_MAX_POKEMON_IN_PARTY)
+        {
+            pokemons.Add(pokemon);
+            return true;
+        }
+        else
+        {
+            //TODO: Añadir la funcionalidad de enviar al PC de Bill
+            return false;
+        }
     }
     
 }

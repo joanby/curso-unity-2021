@@ -12,7 +12,7 @@ public class PartyHUD : MonoBehaviour
 
   public void InitPartyHUD()
   {
-    memberHuds = GetComponentsInChildren<PartyMemberHUD>();
+    memberHuds = GetComponentsInChildren<PartyMemberHUD>(true);
   }
 
   public void SetPartyData(List<Pokemon> pokemons)
