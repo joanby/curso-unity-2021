@@ -593,8 +593,31 @@ public class BattleManager : MonoBehaviour
          playerUnit.Pokemon.Experience += wonExp;
          yield return battleDialogBox.SetDialog(
             $"{playerUnit.Pokemon.Base.Name} ha ganado {wonExp} puntos de experiencia");
+         yield return playerUnit.Hud.SetExpSmooth();
          yield return new WaitForSeconds(0.5f);
+         
          //Chequear New Level
+         while (playerUnit.Pokemon.NeedsToLevelUp())
+         {
+            playerUnit.Hud.SetLevelText();
+            yield return playerUnit.Hud.UpdatePokemonData(playerUnit.Pokemon.HP);
+            yield return battleDialogBox.SetDialog($"{playerUnit.Pokemon.Base.Name} sube de nivel!");
+            //INTENTAR APRENDER UN NUEVO MOVIMIENTO
+            var newLearnableMove = playerUnit.Pokemon.GetLearnableMoveAtCurrentLevel();
+            if (newLearnableMove!=null)
+            {
+               if (playerUnit.Pokemon.Moves.Count < 4)
+               {
+                  //Podemos aprender el movmiento
+               }
+               else
+               {
+                  //Olvidar uno de los movimientos
+               }
+            }
+            
+            yield return playerUnit.Hud.SetExpSmooth(true);
+         }
       }
       
       

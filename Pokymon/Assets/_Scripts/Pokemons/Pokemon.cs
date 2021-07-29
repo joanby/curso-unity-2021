@@ -39,7 +39,11 @@ public class Pokemon
     public int HP
     {
         get => _hp;
-        set => _hp = value;
+        set
+        {
+            _hp = value;
+            _hp = Mathf.FloorToInt(Mathf.Clamp(_hp, 0, MaxHP));
+        }
     }
 
     private int _experience;
@@ -138,7 +142,27 @@ public class Pokemon
         //TODO: implementar combate, que hace daño al enemigo y a ti mismo
         return null;
     }
-    
+
+    public bool NeedsToLevelUp()
+    {
+        if (Experience > Base.GetNecessaryExpForLevel(_level+1))
+        {
+            int currentMaxHP = MaxHP;
+            _level++;
+            HP += (MaxHP - currentMaxHP);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+        
+    }
+
+    public LearnableMove GetLearnableMoveAtCurrentLevel()
+    {
+        return Base.LearnableMoves.Where(lm => lm.Level == _level).FirstOrDefault();
+    }
     
 }
 

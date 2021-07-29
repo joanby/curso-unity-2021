@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,26 +9,22 @@ public class HealthBar : MonoBehaviour
 {
 
     public GameObject healthBar;
-
-
-
-    public Color BarColor
+    
+    public Color BarColor(float finalScale)
     {
-        get
+        
+        if (finalScale < 0.15f)
         {
-            var localScale = healthBar.transform.localScale.x;
-            if (localScale < 0.15f)
-            {
-                return new Color(193f/255, 45f/255, 45f/255);
-            }else if (localScale < 0.5f)
-            {
-                return new Color(211f/255, 211f/255, 29f/255);
-            }
-            else
-            {
-                return new Color(98f/255, 178f/255, 61f/255);
-            }
+            return new Color(193f/255, 45f/255, 45f/255);
+        }else if (finalScale < 0.5f)
+        {
+            return new Color(211f/255, 211f/255, 29f/255);
         }
+        else
+        {
+            return new Color(98f/255, 178f/255, 61f/255);
+        }
+    
     }
     
     /// <summary>
@@ -37,22 +34,15 @@ public class HealthBar : MonoBehaviour
     public void SetHP(float normalizedValue)
     {
         healthBar.transform.localScale = new Vector3(normalizedValue, 1.0f);
-        healthBar.GetComponent<Image>().color = BarColor;
+        healthBar.GetComponent<Image>().color = BarColor(normalizedValue);
 
     }
 
     public IEnumerator SetSmoothHP(float normalizedValue)
     {
-        float currentScale = healthBar.transform.localScale.x;
-        float updateQuantity = currentScale - normalizedValue;
-        while (currentScale - normalizedValue > Mathf.Epsilon)
-        {
-            currentScale -= updateQuantity * Time.deltaTime;
-            healthBar.transform.localScale = new Vector3(currentScale, 1);
-            healthBar.GetComponent<Image>().color = BarColor;
-            yield return null;
-        }
-        
-        healthBar.transform.localScale = new Vector3(normalizedValue, 1);
+        var seq = DOTween.Sequence();
+        seq.Append(healthBar.transform.DOScaleX(normalizedValue, 1f));
+        seq.Join(healthBar.GetComponent<Image>().DOColor(BarColor(normalizedValue), 1f));
+        yield return seq.WaitForCompletion();
     }
 }
