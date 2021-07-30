@@ -350,6 +350,7 @@
 "Assets/_Scripts/Battle/HealthBar.cs"
 "Assets/_Scripts/Battle/PartyHUD.cs"
 "Assets/_Scripts/Battle/PartyMemberHUD.cs"
+"Assets/_Scripts/Battle/SelectionMovementUI.cs"
 "Assets/_Scripts/GameManager.cs"
 "Assets/_Scripts/Moves/Move.cs"
 "Assets/_Scripts/Moves/MoveBase.cs"
