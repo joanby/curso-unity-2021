@@ -15,9 +15,12 @@ public class GameManager : MonoBehaviour
     
     private GameState _gameState;
 
+    public AudioClip worldClip, battleClip;
+
     private void Awake()
     {
         _gameState = GameState.Travel;
+        SoundManager.SharedInstance.PlayMusic(worldClip);
     }
 
     void Start()
@@ -28,6 +31,9 @@ public class GameManager : MonoBehaviour
 
     void StartPokemonBattle()
     {
+        
+        SoundManager.SharedInstance.PlayMusic(battleClip);
+        
         _gameState = GameState.Battle;
         battleManager.gameObject.SetActive(true);
         worldMainCamera.gameObject.SetActive(false);
@@ -42,6 +48,8 @@ public class GameManager : MonoBehaviour
 
     void FinishPokemonBattle(bool playerHasWon)
     {
+        SoundManager.SharedInstance.PlayMusic(worldClip);
+        
         _gameState = GameState.Travel;
         battleManager.gameObject.SetActive(false);
         worldMainCamera.gameObject.SetActive(true);

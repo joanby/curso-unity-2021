@@ -35,11 +35,11 @@ public class SelectionMovementUI : MonoBehaviour
         {
             int direction = Mathf.FloorToInt(Input.GetAxisRaw("Vertical"));
             currentSelectedMovement -= direction;
-            currentSelectedMovement = Mathf.Clamp(currentSelectedMovement, 
-                0, PokemonBase.NUMBER_OF_LEARNABLE_MOVES);
-            UpdateColorForgetMoveSelection();
             onSelected?.Invoke(-1);
         }
+        currentSelectedMovement = Mathf.Clamp(currentSelectedMovement, 
+            0, PokemonBase.NUMBER_OF_LEARNABLE_MOVES);
+        UpdateColorForgetMoveSelection(currentSelectedMovement); 
 
         if (Input.GetAxisRaw("Submit")!=0)
         {
@@ -47,11 +47,11 @@ public class SelectionMovementUI : MonoBehaviour
         }
     }
 
-    public void UpdateColorForgetMoveSelection()
+    public void UpdateColorForgetMoveSelection(int selectedMove)
     {
         for (int i = 0; i <= PokemonBase.NUMBER_OF_LEARNABLE_MOVES; i++)
         {
-            movementTexts[i].color = (i == currentSelectedMovement ? selectedColor : Color.black);
+            movementTexts[i].color = (i == selectedMove ? selectedColor : Color.black);
         }
     }
 }

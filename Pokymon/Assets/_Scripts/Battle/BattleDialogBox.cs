@@ -21,6 +21,8 @@ public class BattleDialogBox : MonoBehaviour
     [SerializeField] Color selectedColor = Color.blue;
 
     public bool isWriting = false;
+
+    public AudioClip[] characterSounds;
     
     public IEnumerator SetDialog(string message)
     {
@@ -29,6 +31,10 @@ public class BattleDialogBox : MonoBehaviour
         dialogText.text = "";
         foreach (var character in message)
         {
+            if (character!=' ')
+            {
+                SoundManager.SharedInstance.RandomSoundEffect(characterSounds);
+            }
             dialogText.text += character;
             yield return new WaitForSeconds(1/charactersPerSecond);
         }

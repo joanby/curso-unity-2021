@@ -359,6 +359,7 @@
 "Assets/_Scripts/Pokemons/PokemonBase.cs"
 "Assets/_Scripts/Pokemons/PokemonMapArea.cs"
 "Assets/_Scripts/Pokemons/PokemonParty.cs"
+"Assets/_Scripts/SoundManager.cs"
 -langversion:8.0
 
 /deterministic

@@ -62,6 +62,8 @@ public class BattleManager : MonoBehaviour
 
    private int escapeAttempts;
    private MoveBase moveToLearn;
+
+   public AudioClip attackClip, damageClip, levelUpClip, pokeballClip, endBattleClip;
    
    public void HandleStartBattle(PokemonParty playerParty, Pokemon wildPokemon)
    {
@@ -108,6 +110,7 @@ public class BattleManager : MonoBehaviour
 
    void BattleFinish(bool playerHasWon)
    {
+      SoundManager.SharedInstance.PlaySound(endBattleClip);
       state = BattleState.FinishBattle;
       OnBattleFinish(playerHasWon);
    }
@@ -393,9 +396,11 @@ public class BattleManager : MonoBehaviour
       var oldHPVal = target.Pokemon.HP;
       
       attacker.PlayAttackAnimation();
+      SoundManager.SharedInstance.PlaySound(attackClip);
       yield return new WaitForSeconds(1f);
       target.PlayReceiveAttackAnimation();
-
+      SoundManager.SharedInstance.PlaySound(damageClip);
+      
       var damageDesc = target.Pokemon.ReceiveDamage(attacker.Pokemon, move);
       yield return target.Hud.UpdatePokemonData(oldHPVal); 
       yield return ShowDamageDescription(damageDesc);
@@ -475,6 +480,7 @@ public class BattleManager : MonoBehaviour
 
       yield return battleDialogBox.SetDialog($"Has lanzado una {pokeball.name}!");
 
+      SoundManager.SharedInstance.PlaySound(pokeballClip);
       var pokeballInst = Instantiate(pokeball, playerUnit.transform.position +
                                                new Vector3(-2,0),
                                                 Quaternion.identity);
@@ -627,6 +633,7 @@ public class BattleManager : MonoBehaviour
          //Chequear New Level
          while (playerUnit.Pokemon.NeedsToLevelUp())
          {
+            SoundManager.SharedInstance.PlaySound(levelUpClip);
             playerUnit.Hud.SetLevelText();
             yield return playerUnit.Hud.UpdatePokemonData(playerUnit.Pokemon.HP);
             yield return battleDialogBox.SetDialog($"{playerUnit.Pokemon.Base.Name} sube de nivel!");
