@@ -58,7 +58,7 @@
      <Compile Include="Assets\_Scripts\Battle\PartyHUD.cs" />
      <Compile Include="Assets\_Scripts\Battle\SelectionMovementUI.cs" />
      <Compile Include="Assets\_Scripts\SoundManager.cs" />
-     <None Include="Assets\8Bit Music Album - 051321\Notes.txt" />
+     <None Include="Assets\Audio\8Bit Music Album - 051321\Notes.txt" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

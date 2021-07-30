@@ -63,7 +63,7 @@ public class BattleManager : MonoBehaviour
    private int escapeAttempts;
    private MoveBase moveToLearn;
 
-   public AudioClip attackClip, damageClip, levelUpClip, pokeballClip, endBattleClip;
+   public AudioClip attackClip, damageClip, levelUpClip, pokeballClip, faintedClip, endBattleClip;
    
    public void HandleStartBattle(PokemonParty playerParty, Pokemon wildPokemon)
    {
@@ -400,6 +400,7 @@ public class BattleManager : MonoBehaviour
       yield return new WaitForSeconds(1f);
       target.PlayReceiveAttackAnimation();
       SoundManager.SharedInstance.PlaySound(damageClip);
+      yield return new WaitForSeconds(0.5f);
       
       var damageDesc = target.Pokemon.ReceiveDamage(attacker.Pokemon, move);
       yield return target.Hud.UpdatePokemonData(oldHPVal); 
@@ -614,6 +615,7 @@ public class BattleManager : MonoBehaviour
    IEnumerator HandlePokemonFainted(BattleUnit faintedUnit)
    {
       yield return battleDialogBox.SetDialog($"{faintedUnit.Pokemon.Base.Name} se ha debilitado");
+      SoundManager.SharedInstance.PlaySound(faintedClip);
       faintedUnit.PlayFaintAnimation();
       yield return new WaitForSeconds(1.5f);
 
@@ -636,7 +638,10 @@ public class BattleManager : MonoBehaviour
             SoundManager.SharedInstance.PlaySound(levelUpClip);
             playerUnit.Hud.SetLevelText();
             yield return playerUnit.Hud.UpdatePokemonData(playerUnit.Pokemon.HP);
+            yield return new WaitForSeconds(1);
             yield return battleDialogBox.SetDialog($"{playerUnit.Pokemon.Base.Name} sube de nivel!");
+            
+
             //INTENTAR APRENDER UN NUEVO MOVIMIENTO
             var newLearnableMove = playerUnit.Pokemon.GetLearnableMoveAtCurrentLevel();
             if (newLearnableMove!=null)
