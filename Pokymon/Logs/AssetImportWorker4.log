@@ -24044,3 +24044,4 @@ Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
 
  -> (artifact id: 'cede5cce9969273c52b959e155a3ad8c') in 0.020959 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
