@@ -23577,3 +23577,470 @@ Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
 
  -> (artifact id: 'ace17c7713efe07fc2d5109f2656d952') in 0.020878 seconds 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(2a330311af115461da83999d19a73884) path("Assets/_Scripts/Battle/BattleManager.cs") state(2)
+Script is not up to date after domain reload: guid(73f09efe6bfb7482ca0dd4a5d2a9df8a) path("Assets/_Scripts/Battle/BattleDialogBox.cs") state(2)
+Script is not up to date after domain reload: guid(b5bdde03baaa14b37a48fff63b1f06ac) path("Assets/_Scripts/SoundManager.cs") state(2)
+Script is not up to date after domain reload: guid(2d77110f53483482f9357247274e2214) path("Assets/_Scripts/Battle/HealthBar.cs") state(2)
+Script is not up to date after domain reload: guid(dcc60c3827daa4dd48dacbb4db1708a5) path("Assets/_Scripts/Battle/SelectionMovementUI.cs") state(2)
+Script is not up to date after domain reload: guid(05b427cecce7d48bd93f9de9f60a8323) path("Assets/_Scripts/Battle/BattleHUD.cs") state(2)
+Script is not up to date after domain reload: guid(188606b04dcb544c29f84c3b74e3c35e) path("Assets/_Scripts/Pokemons/PokemonBase.cs") state(2)
+Script is not up to date after domain reload: guid(dae4bc9cd7fab4d0bb042700055f101f) path("Assets/_Scripts/Pokemons/Pokemon.cs") state(2)
+Script is not up to date after domain reload: guid(686084e79d39e4ac0a6cdfef7ebd5a1f) path("Assets/_Scripts/GameManager.cs") state(2)
+Registering precompiled user dll's ...
+Registered in 0.029968 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.660 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5662ms)
+		BeginReloadAssembly (590ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (299ms)
+		EndReloadAssembly (4743ms)
+			LoadAssemblies (433ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2071ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (295ms)
+			SetupLoadedEditorAssemblies (1409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (240ms)
+				ProcessInitializeOnLoadAttributes (1087ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(2a330311af115461da83999d19a73884) path("Assets/_Scripts/Battle/BattleManager.cs") state(2)
+Script is not up to date after domain reload: guid(73f09efe6bfb7482ca0dd4a5d2a9df8a) path("Assets/_Scripts/Battle/BattleDialogBox.cs") state(2)
+Script is not up to date after domain reload: guid(b5bdde03baaa14b37a48fff63b1f06ac) path("Assets/_Scripts/SoundManager.cs") state(2)
+Script is not up to date after domain reload: guid(2d77110f53483482f9357247274e2214) path("Assets/_Scripts/Battle/HealthBar.cs") state(2)
+Script is not up to date after domain reload: guid(dcc60c3827daa4dd48dacbb4db1708a5) path("Assets/_Scripts/Battle/SelectionMovementUI.cs") state(2)
+Script is not up to date after domain reload: guid(05b427cecce7d48bd93f9de9f60a8323) path("Assets/_Scripts/Battle/BattleHUD.cs") state(2)
+Script is not up to date after domain reload: guid(188606b04dcb544c29f84c3b74e3c35e) path("Assets/_Scripts/Pokemons/PokemonBase.cs") state(2)
+Script is not up to date after domain reload: guid(dae4bc9cd7fab4d0bb042700055f101f) path("Assets/_Scripts/Pokemons/Pokemon.cs") state(2)
+Script is not up to date after domain reload: guid(686084e79d39e4ac0a6cdfef7ebd5a1f) path("Assets/_Scripts/GameManager.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3679 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 256.6 MB.
+System memory in use after: 256.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4233.
+Total: 7.716089 ms (FindLiveObjects: 0.484399 ms CreateObjectMapping: 0.403657 ms MarkObjects: 6.624167 ms  DeleteObjects: 0.201500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1047.000738 seconds.
+  path: Assets/Audio/Mixer.mixer
+  artifactKey: Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Mixer.mixer using Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #9 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #10 asio::detail::task_io_service::run(std::__1::error_code&)
+ #11 IOService::Run(bool)
+ #12 RunAssetImporterV2()
+ #13 Application::InitializeProject()
+ #14 -[EditorApplication applicationDidFinishLaunching:]
+ #15 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #16 ___CFXRegistrationPost_block_invoke
+ #17 _CFXRegistrationPost
+ #18 _CFXNotificationPost
+ #19 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #20 -[NSApplication _postDidFinishNotification]
+ #21 -[NSApplication _sendFinishLaunchingNotification]
+ #22 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #23 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #24 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #25 _NSAppleEventManagerGenericHandler
+ #26 _AppleEventsCheckInAppWithBlock
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 aeProcessAppleEvent
+ #29 AEProcessAppleEvent
+ #30 _DPSNextEvent
+ #31 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #32 -[NSApplication run]
+ #33 NSApplicationMain
+ #34 EditorMain(int, char const**)
+ #35 main
+ #36 start
+ #37 ???
+
+Requesting import of Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(-1,00000000000000000000000000000000), Assets/Audio/Mixer.mixer from editor
+Resuming Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(-1,00000000000000000000000000000000) -> 4c6579ffdbd871d39bc8f6df830b9338 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #10 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #11 asio::detail::task_io_service::run(std::__1::error_code&)
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 -[EditorApplication applicationDidFinishLaunching:]
+ #16 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #17 ___CFXRegistrationPost_block_invoke
+ #18 _CFXRegistrationPost
+ #19 _CFXNotificationPost
+ #20 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #21 -[NSApplication _postDidFinishNotification]
+ #22 -[NSApplication _sendFinishLaunchingNotification]
+ #23 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #24 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #25 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #26 _NSAppleEventManagerGenericHandler
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 aeProcessAppleEvent
+ #30 AEProcessAppleEvent
+ #31 _DPSNextEvent
+ #32 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #33 -[NSApplication run]
+ #34 NSApplicationMain
+ #35 EditorMain(int, char const**)
+ #36 main
+ #37 start
+ #38 ???
+
+Requesting import of Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(-1,00000000000000000000000000000000), Assets/Audio/Mixer.mixer from editor
+Resuming Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(-1,00000000000000000000000000000000) -> 4c6579ffdbd871d39bc8f6df830b9338 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: 'cede5cce9969273c52b959e155a3ad8c') in 0.068942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12214.514221 seconds.
+  path: Assets/Audio/Mixer.mixer
+  artifactKey: Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Mixer.mixer using Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #9 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #10 asio::detail::task_io_service::run(std::__1::error_code&)
+ #11 IOService::Run(bool)
+ #12 RunAssetImporterV2()
+ #13 Application::InitializeProject()
+ #14 -[EditorApplication applicationDidFinishLaunching:]
+ #15 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #16 ___CFXRegistrationPost_block_invoke
+ #17 _CFXRegistrationPost
+ #18 _CFXNotificationPost
+ #19 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #20 -[NSApplication _postDidFinishNotification]
+ #21 -[NSApplication _sendFinishLaunchingNotification]
+ #22 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #23 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #24 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #25 _NSAppleEventManagerGenericHandler
+ #26 _AppleEventsCheckInAppWithBlock
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 aeProcessAppleEvent
+ #29 AEProcessAppleEvent
+ #30 _DPSNextEvent
+ #31 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #32 -[NSApplication run]
+ #33 NSApplicationMain
+ #34 EditorMain(int, char const**)
+ #35 main
+ #36 start
+ #37 ???
+
+Requesting import of Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(-1,00000000000000000000000000000000), Assets/Audio/Mixer.mixer from editor
+Resuming Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(-1,00000000000000000000000000000000) -> 4c6579ffdbd871d39bc8f6df830b9338 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #10 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #11 asio::detail::task_io_service::run(std::__1::error_code&)
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 -[EditorApplication applicationDidFinishLaunching:]
+ #16 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #17 ___CFXRegistrationPost_block_invoke
+ #18 _CFXRegistrationPost
+ #19 _CFXNotificationPost
+ #20 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #21 -[NSApplication _postDidFinishNotification]
+ #22 -[NSApplication _sendFinishLaunchingNotification]
+ #23 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #24 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #25 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #26 _NSAppleEventManagerGenericHandler
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 aeProcessAppleEvent
+ #30 AEProcessAppleEvent
+ #31 _DPSNextEvent
+ #32 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #33 -[NSApplication run]
+ #34 NSApplicationMain
+ #35 EditorMain(int, char const**)
+ #36 main
+ #37 start
+ #38 ???
+
+Requesting import of Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(-1,00000000000000000000000000000000), Assets/Audio/Mixer.mixer from editor
+Resuming Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(-1,00000000000000000000000000000000) -> 4c6579ffdbd871d39bc8f6df830b9338 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: 'cede5cce9969273c52b959e155a3ad8c') in 0.015750 seconds 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(2a330311af115461da83999d19a73884) path("Assets/_Scripts/Battle/BattleManager.cs") state(2)
+Script is not up to date after domain reload: guid(73f09efe6bfb7482ca0dd4a5d2a9df8a) path("Assets/_Scripts/Battle/BattleDialogBox.cs") state(2)
+Script is not up to date after domain reload: guid(b5bdde03baaa14b37a48fff63b1f06ac) path("Assets/_Scripts/SoundManager.cs") state(2)
+Script is not up to date after domain reload: guid(2d77110f53483482f9357247274e2214) path("Assets/_Scripts/Battle/HealthBar.cs") state(2)
+Script is not up to date after domain reload: guid(dcc60c3827daa4dd48dacbb4db1708a5) path("Assets/_Scripts/Battle/SelectionMovementUI.cs") state(2)
+Script is not up to date after domain reload: guid(05b427cecce7d48bd93f9de9f60a8323) path("Assets/_Scripts/Battle/BattleHUD.cs") state(2)
+Script is not up to date after domain reload: guid(188606b04dcb544c29f84c3b74e3c35e) path("Assets/_Scripts/Pokemons/PokemonBase.cs") state(2)
+Script is not up to date after domain reload: guid(dae4bc9cd7fab4d0bb042700055f101f) path("Assets/_Scripts/Pokemons/Pokemon.cs") state(2)
+Script is not up to date after domain reload: guid(686084e79d39e4ac0a6cdfef7ebd5a1f) path("Assets/_Scripts/GameManager.cs") state(2)
+Registering precompiled user dll's ...
+Registered in 0.013650 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2021/Pokymon/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.644 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1645ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (1331ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (555ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(2a330311af115461da83999d19a73884) path("Assets/_Scripts/Battle/BattleManager.cs") state(2)
+Script is not up to date after domain reload: guid(73f09efe6bfb7482ca0dd4a5d2a9df8a) path("Assets/_Scripts/Battle/BattleDialogBox.cs") state(2)
+Script is not up to date after domain reload: guid(b5bdde03baaa14b37a48fff63b1f06ac) path("Assets/_Scripts/SoundManager.cs") state(2)
+Script is not up to date after domain reload: guid(2d77110f53483482f9357247274e2214) path("Assets/_Scripts/Battle/HealthBar.cs") state(2)
+Script is not up to date after domain reload: guid(dcc60c3827daa4dd48dacbb4db1708a5) path("Assets/_Scripts/Battle/SelectionMovementUI.cs") state(2)
+Script is not up to date after domain reload: guid(05b427cecce7d48bd93f9de9f60a8323) path("Assets/_Scripts/Battle/BattleHUD.cs") state(2)
+Script is not up to date after domain reload: guid(188606b04dcb544c29f84c3b74e3c35e) path("Assets/_Scripts/Pokemons/PokemonBase.cs") state(2)
+Script is not up to date after domain reload: guid(dae4bc9cd7fab4d0bb042700055f101f) path("Assets/_Scripts/Pokemons/Pokemon.cs") state(2)
+Script is not up to date after domain reload: guid(686084e79d39e4ac0a6cdfef7ebd5a1f) path("Assets/_Scripts/GameManager.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3679 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 260.0 MB.
+System memory in use after: 260.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4237.
+Total: 2.944420 ms (FindLiveObjects: 0.450835 ms CreateObjectMapping: 0.264906 ms MarkObjects: 2.143570 ms  DeleteObjects: 0.084274 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.107999 seconds.
+  path: Assets/Audio/Mixer.mixer
+  artifactKey: Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Mixer.mixer using Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #9 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #10 asio::detail::task_io_service::run(std::__1::error_code&)
+ #11 IOService::Run(bool)
+ #12 RunAssetImporterV2()
+ #13 Application::InitializeProject()
+ #14 -[EditorApplication applicationDidFinishLaunching:]
+ #15 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #16 ___CFXRegistrationPost_block_invoke
+ #17 _CFXRegistrationPost
+ #18 _CFXNotificationPost
+ #19 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #20 -[NSApplication _postDidFinishNotification]
+ #21 -[NSApplication _sendFinishLaunchingNotification]
+ #22 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #23 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #24 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #25 _NSAppleEventManagerGenericHandler
+ #26 _AppleEventsCheckInAppWithBlock
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 aeProcessAppleEvent
+ #29 AEProcessAppleEvent
+ #30 _DPSNextEvent
+ #31 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #32 -[NSApplication run]
+ #33 NSApplicationMain
+ #34 EditorMain(int, char const**)
+ #35 main
+ #36 start
+ #37 ???
+
+Requesting import of Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(-1,00000000000000000000000000000000), Assets/Audio/Mixer.mixer from editor
+Resuming Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(-1,00000000000000000000000000000000) -> 4c6579ffdbd871d39bc8f6df830b9338 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #10 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #11 asio::detail::task_io_service::run(std::__1::error_code&)
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 -[EditorApplication applicationDidFinishLaunching:]
+ #16 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #17 ___CFXRegistrationPost_block_invoke
+ #18 _CFXRegistrationPost
+ #19 _CFXNotificationPost
+ #20 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #21 -[NSApplication _postDidFinishNotification]
+ #22 -[NSApplication _sendFinishLaunchingNotification]
+ #23 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #24 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #25 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #26 _NSAppleEventManagerGenericHandler
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 aeProcessAppleEvent
+ #30 AEProcessAppleEvent
+ #31 _DPSNextEvent
+ #32 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #33 -[NSApplication run]
+ #34 NSApplicationMain
+ #35 EditorMain(int, char const**)
+ #36 main
+ #37 start
+ #38 ???
+
+Requesting import of Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(-1,00000000000000000000000000000000), Assets/Audio/Mixer.mixer from editor
+Resuming Guid(c8339b66ea2af49698915bc8b994e6e8) Importer(-1,00000000000000000000000000000000) -> 4c6579ffdbd871d39bc8f6df830b9338 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: 'cede5cce9969273c52b959e155a3ad8c') in 0.020959 seconds 

@@ -447,7 +447,7 @@ AudioSource:
   m_GameObject: {fileID: 112334963}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4366478948003824582, guid: c8339b66ea2af49698915bc8b994e6e8, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -1623,7 +1623,7 @@ AudioSource:
   m_GameObject: {fileID: 471193912}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3571894298501329687, guid: c8339b66ea2af49698915bc8b994e6e8, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -12924,6 +12924,12 @@ MonoBehaviour:
   state: 0
   type: 0
   timeBetweenClicks: 0.5
+  attackClip: {fileID: 8300000, guid: 2c97237da44cdbf489e7fd63768103d3, type: 3}
+  damageClip: {fileID: 8300000, guid: d7550df87e06fba479f77c93f02e5a58, type: 3}
+  levelUpClip: {fileID: 8300000, guid: 1a358488dbc0038479a3a64bb09d7090, type: 3}
+  pokeballClip: {fileID: 8300000, guid: 26fdf572d8ba64140aecd1cf2d4a2897, type: 3}
+  faintedClip: {fileID: 8300000, guid: d7550df87e06fba479f77c93f02e5a58, type: 3}
+  endBattleClip: {fileID: 8300000, guid: d5cf78dd74f78cc4d988480d28ce024a, type: 3}
 --- !u!1 &779269742
 GameObject:
   m_ObjectHideFlags: 0
@@ -17123,6 +17129,8 @@ MonoBehaviour:
   playerController: {fileID: 230912640}
   battleManager: {fileID: 777004220}
   worldMainCamera: {fileID: 519420031}
+  worldClip: {fileID: 8300000, guid: 3eb3349832ee15c448a05bfcd3a8fbce, type: 3}
+  battleClip: {fileID: 8300000, guid: 42eca95eca33c464b93c6797d20a673c, type: 3}
 --- !u!4 &1173279227
 Transform:
   m_ObjectHideFlags: 0
@@ -17604,7 +17612,7 @@ MonoBehaviour:
   - {fileID: 279290712}
   - {fileID: 375332640}
   - {fileID: 955786365}
-  selectedColor: {r: 0, g: 0, b: 0, a: 0}
+  selectedColor: {r: 0.2509804, g: 0.45098042, b: 0.2392157, a: 1}
 --- !u!114 &1351106786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18026,9 +18034,13 @@ MonoBehaviour:
   ppText: {fileID: 125732785}
   typeText: {fileID: 1821581724}
   timeToWaitAfterText: 1
-  charactersPerSecond: 60
+  charactersPerSecond: 20
   selectedColor: {r: 0.1541919, g: 0.4969697, b: 0.5943396, a: 1}
   isWriting: 0
+  characterSounds:
+  - {fileID: 8300000, guid: 4cd9bacaab545b7468257b1c60624c02, type: 3}
+  - {fileID: 8300000, guid: 0b6c9c514023e524594a171a8f4bca92, type: 3}
+  - {fileID: 8300000, guid: 860c6252f9ce6b34da8df32e4de419c1, type: 3}
 --- !u!1 &1522372504
 GameObject:
   m_ObjectHideFlags: 0
@@ -23197,7 +23209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsSource: {fileID: 112334964}
   musicSource: {fileID: 471193913}
-  pitchRange: {x: 0.9, y: 1.5}
+  pitchRange: {x: 2.1, y: 3}
 --- !u!4 &1687940845
 Transform:
   m_ObjectHideFlags: 0
