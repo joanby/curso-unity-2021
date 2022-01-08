@@ -1,0 +1,2100 @@
+fileFormatVersion: 2
+guid: ea65dcbe920364a7bb789469e84081e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1548458883966915030
+    second: Trainer Girl_0
+  - first:
+      213: 5611730927504440526
+    second: Trainer Girl_1
+  - first:
+      213: 679034960955276352
+    second: Trainer Girl_2
+  - first:
+      213: 1953897519562605348
+    second: Trainer Girl_3
+  - first:
+      213: -7774476142566486206
+    second: Trainer Girl_4
+  - first:
+      213: 750890744955446482
+    second: Trainer Girl_5
+  - first:
+      213: 7919205366113879001
+    second: Trainer Girl_6
+  - first:
+      213: 7293816791371663894
+    second: Trainer Girl_7
+  - first:
+      213: -8044512626154121218
+    second: Trainer Girl_8
+  - first:
+      213: -2096159301408654807
+    second: Trainer Girl_9
+  - first:
+      213: -6546534996692653916
+    second: Trainer Girl_10
+  - first:
+      213: -9095081632933612023
+    second: Trainer Girl_11
+  - first:
+      213: -8211110482535559848
+    second: Trainer Girl_12
+  - first:
+      213: 5427696448428279040
+    second: Trainer Girl_13
+  - first:
+      213: 6206689905737290987
+    second: Trainer Girl_14
+  - first:
+      213: 8363003818904160042
+    second: Trainer Girl_15
+  - first:
+      213: -1685220039699476560
+    second: Trainer Girl_16
+  - first:
+      213: -7239787218462634458
+    second: Trainer Girl_17
+  - first:
+      213: -378575110951523837
+    second: Trainer Girl_18
+  - first:
+      213: 4412579356323763960
+    second: Trainer Girl_19
+  - first:
+      213: -358969189022655524
+    second: Trainer Girl_20
+  - first:
+      213: -7480179005536529769
+    second: Trainer Girl_21
+  - first:
+      213: -7322900969957501348
+    second: Trainer Girl_22
+  - first:
+      213: -8622558740470700143
+    second: Trainer Girl_23
+  - first:
+      213: 1560216851227117461
+    second: Trainer Girl_24
+  - first:
+      213: -8960403035896294940
+    second: Trainer Girl_25
+  - first:
+      213: 1407678032474428497
+    second: Trainer Girl_26
+  - first:
+      213: 7890702958616450876
+    second: Trainer Girl_27
+  - first:
+      213: 6799843695004422349
+    second: Trainer Girl_28
+  - first:
+      213: 5051034486397137714
+    second: Trainer Girl_29
+  - first:
+      213: -1778553059240607833
+    second: Trainer Girl_30
+  - first:
+      213: 3035975608041337651
+    second: Trainer Girl_31
+  - first:
+      213: -2720824549171218443
+    second: Trainer Girl_32
+  - first:
+      213: -6245974812365667989
+    second: Trainer Girl_33
+  - first:
+      213: 5830454335361856808
+    second: Trainer Girl_34
+  - first:
+      213: -3731544846485103981
+    second: Trainer Girl_35
+  - first:
+      213: 3847208194239266196
+    second: Trainer Girl_36
+  - first:
+      213: 1123550486401822267
+    second: Trainer Girl_37
+  - first:
+      213: -2750797223254598483
+    second: Trainer Girl_38
+  - first:
+      213: -5557829959216830779
+    second: Trainer Girl_39
+  - first:
+      213: -5266399471029359988
+    second: Trainer Girl_40
+  - first:
+      213: 6644663163137275701
+    second: Trainer Girl_41
+  - first:
+      213: -226586883640531316
+    second: Trainer Girl_42
+  - first:
+      213: 4469343120228385646
+    second: Trainer Girl_43
+  - first:
+      213: -5172830713278904998
+    second: Trainer Girl_44
+  - first:
+      213: 8573767673488560852
+    second: Trainer Girl_45
+  - first:
+      213: 7825605151620267901
+    second: Trainer Girl_46
+  - first:
+      213: 4002722334736318292
+    second: Trainer Girl_47
+  - first:
+      213: 82624033912299197
+    second: Trainer Girl_48
+  - first:
+      213: -5143721262199504262
+    second: Trainer Girl_49
+  - first:
+      213: -8884296401035022062
+    second: Trainer Girl_50
+  - first:
+      213: 4534170605216391282
+    second: Trainer Girl_51
+  - first:
+      213: -2771445872825117158
+    second: Trainer Girl_52
+  - first:
+      213: 2463470774720546553
+    second: Trainer Girl_53
+  - first:
+      213: -6893311853537044126
+    second: Trainer Girl_54
+  - first:
+      213: 3159910651406146496
+    second: Trainer Girl_55
+  - first:
+      213: 4419725061797641072
+    second: Trainer Girl_56
+  - first:
+      213: -7550274995885479270
+    second: Trainer Girl_57
+  - first:
+      213: -5459151892583765558
+    second: Trainer Girl_58
+  - first:
+      213: 4864500095894377628
+    second: Trainer Girl_59
+  - first:
+      213: -2271159954710198273
+    second: Trainer Girl_60
+  - first:
+      213: 2662093957950665400
+    second: Trainer Girl_61
+  - first:
+      213: -8427836933491567315
+    second: Trainer Girl_62
+  - first:
+      213: 673312892591660937
+    second: Trainer Girl_63
+  - first:
+      213: -4162808884335279436
+    second: Trainer Girl_64
+  - first:
+      213: 702433467839038553
+    second: Trainer Girl_65
+  - first:
+      213: 423289792951326691
+    second: Trainer Girl_66
+  - first:
+      213: -566043616127069240
+    second: Trainer Girl_67
+  - first:
+      213: -2405246919948971125
+    second: Trainer Girl_68
+  - first:
+      213: 3492184992835730458
+    second: Trainer Girl_69
+  - first:
+      213: -370747952690313939
+    second: Trainer Girl_70
+  - first:
+      213: 1207597122135691164
+    second: Trainer Girl_71
+  - first:
+      213: 6219725984452002365
+    second: Trainer Girl_72
+  - first:
+      213: 9174684354066368584
+    second: Trainer Girl_73
+  - first:
+      213: 5714371477921760152
+    second: Trainer Girl_74
+  - first:
+      213: 1985521301945584505
+    second: Trainer Girl_75
+  - first:
+      213: -2558706269898606655
+    second: Trainer Girl_76
+  - first:
+      213: -6750099513505647250
+    second: Trainer Girl_77
+  - first:
+      213: 8215363633602007740
+    second: Trainer Girl_78
+  - first:
+      213: -6006781212876267111
+    second: Trainer Girl_79
+  - first:
+      213: 7282317219961280917
+    second: Trainer Girl_80
+  - first:
+      213: 4482264212180577253
+    second: Trainer Girl_81
+  - first:
+      213: -365954090254778523
+    second: Trainer Girl_82
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trainer Girl_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 508
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eaadf59d4c28ae0800000000000000
+      internalID: -1548458883966915030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 507
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccb9fcdb8fd0ed40800000000000000
+      internalID: 5611730927504440526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 508
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c7fc503ba6c6900800000000000000
+      internalID: 679034960955276352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 507
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423cb0d1173ad1b10800000000000000
+      internalID: 1953897519562605348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 505
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f4397a3238b1490800000000000000
+      internalID: -7774476142566486206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 505
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4a2367723bb6a00800000000000000
+      internalID: 750890744955446482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_6
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 505
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3c59e925ba6ed60800000000000000
+      internalID: 7919205366113879001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_7
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 505
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61acc7a3ab7d83560800000000000000
+      internalID: 7293816791371663894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_8
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 498
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef750fe53662c5090800000000000000
+      internalID: -8044512626154121218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 500
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92af7e6a832f8e2e0800000000000000
+      internalID: -2096159301408654807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_10
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 498
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8a8740b190625a0800000000000000
+      internalID: -6546534996692653916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_11
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 499
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906ffc15177c7c180800000000000000
+      internalID: -9095081632933612023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_12
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 445
+        width: 47
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d4bfc35864c0e80800000000000000
+      internalID: -8211110482535559848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_13
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 446
+        width: 48
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0058735a92d035b40800000000000000
+      internalID: 5427696448428279040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_14
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 445
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be45976b597922650800000000000000
+      internalID: 6206689905737290987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_15
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 446
+        width: 53
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2784090aab5f0470800000000000000
+      internalID: 8363003818904160042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 468
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfc7557d45ec98e0800000000000000
+      internalID: -1685220039699476560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 467
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e0f1202eb178b90800000000000000
+      internalID: -7239787218462634458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_18
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 468
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a2eee31f70fbaf0800000000000000
+      internalID: -378575110951523837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_19
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 467
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f656e4bb81ac3d30800000000000000
+      internalID: 4412579356323763960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_20
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 465
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb9efaac6fa40bf0800000000000000
+      internalID: -358969189022655524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_21
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 465
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79219ae73d0113890800000000000000
+      internalID: -7480179005536529769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_22
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 465
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56d150cd54df5a90800000000000000
+      internalID: -7322900969957501348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_23
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 465
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197ed438284865880800000000000000
+      internalID: -8622558740470700143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_24
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 448
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59788f5b5f007a510800000000000000
+      internalID: 1560216851227117461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_25
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 447
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1d111c9e046a380800000000000000
+      internalID: -8960403035896294940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_26
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 448
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15452cb56b3198310800000000000000
+      internalID: 1407678032474428497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_27
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 447
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37157cb888618d60800000000000000
+      internalID: 7890702958616450876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_28
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 428
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc01be040d5ed5e50800000000000000
+      internalID: 6799843695004422349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_29
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 426
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233f2f59a11e81640800000000000000
+      internalID: 5051034486397137714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_30
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 428
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af77c17a6f4157e0800000000000000
+      internalID: -1778553059240607833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 426
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333fd00fab3f12a20800000000000000
+      internalID: 3035975608041337651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 425
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7bc72fc70bd3ad0800000000000000
+      internalID: -2720824549171218443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_33
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 425
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6148e03007d159a0800000000000000
+      internalID: -6245974812365667989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 425
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8253162b35fe9e050800000000000000
+      internalID: 5830454335361856808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_35
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 425
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ad0d19bb3e63cc0800000000000000
+      internalID: -3731544846485103981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_36
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 392
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d7a922877046530800000000000000
+      internalID: 3847208194239266196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_37
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 393
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ea23de637a79f00800000000000000
+      internalID: 1123550486401822267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_38
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 392
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac57c2ff7433d9d0800000000000000
+      internalID: -2750797223254598483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_39
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 393
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c66bd6491f9ed2b0800000000000000
+      internalID: -5557829959216830779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_40
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 390
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a6dfb659df9e6b0800000000000000
+      internalID: -5266399471029359988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_41
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 390
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537bbe221f5963c50800000000000000
+      internalID: 6644663163137275701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_42
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 391
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86e7d90e600bdcf0800000000000000
+      internalID: -226586883640531316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_43
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 390
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e638c8463eb460e30800000000000000
+      internalID: 4469343120228385646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_44
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 386
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55c7c38fd96638b0800000000000000
+      internalID: -5172830713278904998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_45
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 385
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d25305f5442cf670800000000000000
+      internalID: 8573767673488560852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_46
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 385
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fface6c622a9c60800000000000000
+      internalID: 7825605151620267901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_47
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 385
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ffa7091c68c8730800000000000000
+      internalID: 4002722334736318292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_48
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 385
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe904ffe1a852100800000000000000
+      internalID: 82624033912299197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_49
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 385
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7289feb3c4dd98b0800000000000000
+      internalID: -5143721262199504262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_50
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 385
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211b6098e73a4b480800000000000000
+      internalID: -8884296401035022062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_51
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 385
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270e0f2742c9cee30800000000000000
+      internalID: 4534170605216391282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_52
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 335
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16590499a8d989d0800000000000000
+      internalID: -2771445872825117158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_53
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 337
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f646c91e91003220800000000000000
+      internalID: 2463470774720546553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_54
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 335
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2695feb34690650a0800000000000000
+      internalID: -6893311853537044126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_55
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 336
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb590bdef14adb20800000000000000
+      internalID: 3159910651406146496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_56
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 331
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bf659e684065d30800000000000000
+      internalID: 4419725061797641072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_57
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 331
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a6bb1f4e8083790800000000000000
+      internalID: -7550274995885479270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_58
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 331
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9a4ab07423d34b0800000000000000
+      internalID: -5459151892583765558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_59
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 331
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9453a1601d228340800000000000000
+      internalID: 4864500095894377628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_60
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 207
+        width: 80
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff70867ed083b70e0800000000000000
+      internalID: -2271159954710198273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_61
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 207
+        width: 110
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2fc52b958a1f420800000000000000
+      internalID: 2662093957950665400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_62
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 207
+        width: 110
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25515a26fe4a0b80800000000000000
+      internalID: -8427836933491567315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_63
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 207
+        width: 114
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fdd992286185900800000000000000
+      internalID: 673312892591660937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_64
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 207
+        width: 114
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b20b5d006bba36c0800000000000000
+      internalID: -4162808884335279436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_65
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 242
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95444e0748b8fb900800000000000000
+      internalID: 702433467839038553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_66
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 242
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e799e1f2d3dfd500800000000000000
+      internalID: 423289792951326691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_67
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 242
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c35e5584520528f0800000000000000
+      internalID: -566043616127069240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_68
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 242
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83d65b7ba8de9ed0800000000000000
+      internalID: -2405246919948971125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_69
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 207
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c7ce3afbbb67030800000000000000
+      internalID: 3492184992835730458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_70
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 207
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25c0ba83b6dadaf0800000000000000
+      internalID: -370747952690313939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_71
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 207
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f8ea83f2f32c010800000000000000
+      internalID: 1207597122135691164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_72
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 207
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32478f44d7e05650800000000000000
+      internalID: 6219725984452002365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_73
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 38
+        width: 114
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848c57a7fc6035f70800000000000000
+      internalID: 9174684354066368584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_74
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 157
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893862845968d4f40800000000000000
+      internalID: 5714371477921760152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_75
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 157
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b0078ba1dfd8b10800000000000000
+      internalID: 1985521301945584505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_76
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 157
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7f0224436ad7cd0800000000000000
+      internalID: -2558706269898606655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_77
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 157
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6575fa8144d252a0800000000000000
+      internalID: -6750099513505647250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_78
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 47
+        width: 216
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb29289a2b5d20270800000000000000
+      internalID: 8215363633602007740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_79
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 102
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991250bef40a3aca0800000000000000
+      internalID: -6006781212876267111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_80
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 102
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599908d9decff0560800000000000000
+      internalID: 7282317219961280917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_81
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 102
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb287c8d83343e30800000000000000
+      internalID: 4482264212180577253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Girl_82
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 102
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f334e91bedbeaf0800000000000000
+      internalID: -365954090254778523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

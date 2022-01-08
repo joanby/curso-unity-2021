@@ -15,9 +15,9 @@ TagManager:
   - Grass - Pokemon
   - 'Water - Pokemon '
   - Cave - Pokemon
-  - 
-  - 
-  - 
+  - Interactable
+  - Player
+  - FoV
   - 
   - 
   - 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 34587324d412940a79d530020c957dc0
+guid: bd3cb4af8406d4436a2ae8c2aafe1f8d
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -27,6 +27,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -36,8 +37,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -147,7 +148,7 @@ TextureImporter:
       spriteID: f669c7f71d485c180800000000000000
       internalID: -9095717837082945937
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     outline:
@@ -168,13 +169,15 @@ TextureImporter:
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
-    indices:
+    indices: 
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag:
+    nameFileIdTable:
+      Capsule: -9095717837082945937
+  spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

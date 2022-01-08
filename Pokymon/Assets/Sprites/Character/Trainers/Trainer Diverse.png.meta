@@ -1,0 +1,2604 @@
+fileFormatVersion: 2
+guid: bf02bcc9a637d41e2a2f2ba571daba55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4071116747222229545
+    second: Trainer Diverse_0
+  - first:
+      213: 301927122202079813
+    second: Trainer Diverse_1
+  - first:
+      213: 6133402490039510631
+    second: Trainer Diverse_2
+  - first:
+      213: 2756764046896742993
+    second: Trainer Diverse_3
+  - first:
+      213: 2038947437281373359
+    second: Trainer Diverse_4
+  - first:
+      213: -8345213563774881158
+    second: Trainer Diverse_5
+  - first:
+      213: 4929688853117641958
+    second: Trainer Diverse_6
+  - first:
+      213: -7034517450320863811
+    second: Trainer Diverse_7
+  - first:
+      213: 6481404255709844672
+    second: Trainer Diverse_8
+  - first:
+      213: -7279878641329751304
+    second: Trainer Diverse_9
+  - first:
+      213: -3940159675094711324
+    second: Trainer Diverse_10
+  - first:
+      213: -3126723104604516613
+    second: Trainer Diverse_11
+  - first:
+      213: -6680725442187314579
+    second: Trainer Diverse_12
+  - first:
+      213: 8107756611427035677
+    second: Trainer Diverse_13
+  - first:
+      213: 8697032103792901769
+    second: Trainer Diverse_14
+  - first:
+      213: 323216014303467320
+    second: Trainer Diverse_15
+  - first:
+      213: 6161183059916207537
+    second: Trainer Diverse_16
+  - first:
+      213: 6112342942838607171
+    second: Trainer Diverse_17
+  - first:
+      213: -3636531191937795226
+    second: Trainer Diverse_18
+  - first:
+      213: 4081591780833779262
+    second: Trainer Diverse_19
+  - first:
+      213: 8704201757771441820
+    second: Trainer Diverse_20
+  - first:
+      213: 8989588864504625100
+    second: Trainer Diverse_21
+  - first:
+      213: -6605134568372093521
+    second: Trainer Diverse_22
+  - first:
+      213: -2408876827435371064
+    second: Trainer Diverse_23
+  - first:
+      213: 6067911167191644887
+    second: Trainer Diverse_24
+  - first:
+      213: 2526347242932031927
+    second: Trainer Diverse_25
+  - first:
+      213: -6002680884256440677
+    second: Trainer Diverse_26
+  - first:
+      213: -4272034873902704064
+    second: Trainer Diverse_27
+  - first:
+      213: -3469007458221424296
+    second: Trainer Diverse_28
+  - first:
+      213: 3467434493164376804
+    second: Trainer Diverse_29
+  - first:
+      213: 905752050180709471
+    second: Trainer Diverse_30
+  - first:
+      213: 2295653259057985896
+    second: Trainer Diverse_31
+  - first:
+      213: -491922264673001718
+    second: Trainer Diverse_32
+  - first:
+      213: -6188739583664858832
+    second: Trainer Diverse_33
+  - first:
+      213: 8488567071280018071
+    second: Trainer Diverse_34
+  - first:
+      213: -3827732039300689336
+    second: Trainer Diverse_35
+  - first:
+      213: 8366881463855709398
+    second: Trainer Diverse_36
+  - first:
+      213: 8622100426663653705
+    second: Trainer Diverse_37
+  - first:
+      213: -3707201940025205386
+    second: Trainer Diverse_38
+  - first:
+      213: -3125413496630324148
+    second: Trainer Diverse_39
+  - first:
+      213: -703283246036802064
+    second: Trainer Diverse_40
+  - first:
+      213: -4164980981549045377
+    second: Trainer Diverse_41
+  - first:
+      213: -8482299880313464486
+    second: Trainer Diverse_42
+  - first:
+      213: 2246407722553147678
+    second: Trainer Diverse_43
+  - first:
+      213: 2365175768969022922
+    second: Trainer Diverse_44
+  - first:
+      213: 7663205869285899002
+    second: Trainer Diverse_45
+  - first:
+      213: -7052834083471812056
+    second: Trainer Diverse_46
+  - first:
+      213: -7367474886204834577
+    second: Trainer Diverse_47
+  - first:
+      213: 8363953068588189338
+    second: Trainer Diverse_48
+  - first:
+      213: -4984745732400258166
+    second: Trainer Diverse_49
+  - first:
+      213: -6788539351575932733
+    second: Trainer Diverse_50
+  - first:
+      213: 3327913657385169868
+    second: Trainer Diverse_51
+  - first:
+      213: 8588522806765189167
+    second: Trainer Diverse_52
+  - first:
+      213: -3831464910895398292
+    second: Trainer Diverse_53
+  - first:
+      213: 1561326942772653274
+    second: Trainer Diverse_54
+  - first:
+      213: -6474727258487111329
+    second: Trainer Diverse_55
+  - first:
+      213: 3257004476164234756
+    second: Trainer Diverse_56
+  - first:
+      213: -4142012217364145752
+    second: Trainer Diverse_57
+  - first:
+      213: 461551499754307901
+    second: Trainer Diverse_58
+  - first:
+      213: -3989886021520220219
+    second: Trainer Diverse_59
+  - first:
+      213: 2600261015369799883
+    second: Trainer Diverse_60
+  - first:
+      213: -8318526534006376985
+    second: Trainer Diverse_61
+  - first:
+      213: -482610318909563464
+    second: Trainer Diverse_62
+  - first:
+      213: 8691396002101009817
+    second: Trainer Diverse_63
+  - first:
+      213: -1283880653045102977
+    second: Trainer Diverse_64
+  - first:
+      213: 2165895767254686773
+    second: Trainer Diverse_65
+  - first:
+      213: 3301411324559980571
+    second: Trainer Diverse_66
+  - first:
+      213: 5223196132364045228
+    second: Trainer Diverse_67
+  - first:
+      213: 890820462714752752
+    second: Trainer Diverse_68
+  - first:
+      213: 3066548373290329696
+    second: Trainer Diverse_69
+  - first:
+      213: 36651252777081401
+    second: Trainer Diverse_70
+  - first:
+      213: -5570937399619597107
+    second: Trainer Diverse_71
+  - first:
+      213: -8169155800932778061
+    second: Trainer Diverse_72
+  - first:
+      213: 4278290804977685709
+    second: Trainer Diverse_73
+  - first:
+      213: 7545868969783021973
+    second: Trainer Diverse_74
+  - first:
+      213: 6948811026693005259
+    second: Trainer Diverse_75
+  - first:
+      213: -8468132561577436263
+    second: Trainer Diverse_76
+  - first:
+      213: 512527999958480299
+    second: Trainer Diverse_77
+  - first:
+      213: 4319141275817324593
+    second: Trainer Diverse_78
+  - first:
+      213: 4500423041950063791
+    second: Trainer Diverse_79
+  - first:
+      213: 4040598830542924725
+    second: Trainer Diverse_80
+  - first:
+      213: 6180538959757330410
+    second: Trainer Diverse_81
+  - first:
+      213: 2860795524229890879
+    second: Trainer Diverse_82
+  - first:
+      213: 5909074315140857891
+    second: Trainer Diverse_83
+  - first:
+      213: 322896638595936049
+    second: Trainer Diverse_84
+  - first:
+      213: -3197461686916506303
+    second: Trainer Diverse_85
+  - first:
+      213: 3653773997229369826
+    second: Trainer Diverse_86
+  - first:
+      213: -8920900412739412037
+    second: Trainer Diverse_87
+  - first:
+      213: -8314516706035013454
+    second: Trainer Diverse_88
+  - first:
+      213: 6266971952698102040
+    second: Trainer Diverse_89
+  - first:
+      213: 6456024144776697091
+    second: Trainer Diverse_90
+  - first:
+      213: 2220551028520633894
+    second: Trainer Diverse_91
+  - first:
+      213: -6266700359746988446
+    second: Trainer Diverse_92
+  - first:
+      213: -8829496855020746881
+    second: Trainer Diverse_93
+  - first:
+      213: -7707075970709283384
+    second: Trainer Diverse_94
+  - first:
+      213: -6485060038409246761
+    second: Trainer Diverse_95
+  - first:
+      213: 1282998103202576046
+    second: Trainer Diverse_96
+  - first:
+      213: -257210573461035821
+    second: Trainer Diverse_97
+  - first:
+      213: -9170263044860306572
+    second: Trainer Diverse_98
+  - first:
+      213: -8305755234442701686
+    second: Trainer Diverse_99
+  - first:
+      213: -412693905883933153
+    second: Trainer Diverse_100
+  - first:
+      213: -4026465745333991581
+    second: Trainer Diverse_101
+  - first:
+      213: -4028395800509419592
+    second: Trainer Diverse_102
+  - first:
+      213: 7305723948608732229
+    second: Trainer Diverse_103
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trainer Diverse_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 249
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dddcaa53ec7087c0800000000000000
+      internalID: -4071116747222229545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 249
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54239e23e19a03400800000000000000
+      internalID: 301927122202079813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 248
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7662d4b81193e1550800000000000000
+      internalID: 6133402490039510631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 250
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15249d07b4ef14620800000000000000
+      internalID: 2756764046896742993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 249
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac69d234ebcb4c10800000000000000
+      internalID: 2038947437281373359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 249
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a723d648a78df2c80800000000000000
+      internalID: -8345213563774881158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 251
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4a74fa4e5c96440800000000000000
+      internalID: 4929688853117641958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_7
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 249
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd965f36af506e90800000000000000
+      internalID: -7034517450320863811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_8
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 249
+        width: 25
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c45a43a4d292f950800000000000000
+      internalID: 6481404255709844672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_9
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 250
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa369732fca8fa90800000000000000
+      internalID: -7279878641329751304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_10
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 250
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e349afb6adb159c0800000000000000
+      internalID: -3940159675094711324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_11
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 250
+        width: 34
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe8a0707e5ab94d0800000000000000
+      internalID: -3126723104604516613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_12
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 250
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ab2883b9b4943a0800000000000000
+      internalID: -6680725442187314579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 210
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aee6d6ea9848070800000000000000
+      internalID: 8107756611427035677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 210
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e7eba9e9012b870800000000000000
+      internalID: 8697032103792901769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 210
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8379646a04b4c7400800000000000000
+      internalID: 323216014303467320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_16
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 210
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5b572895be08550800000000000000
+      internalID: 6161183059916207537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_17
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 210
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dc24d958763d450800000000000000
+      internalID: 6112342942838607171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_18
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 211
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b7be9e522788dc0800000000000000
+      internalID: -3636531191937795226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_19
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 211
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e50c6791ab4a830800000000000000
+      internalID: 4081591780833779262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_20
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 211
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c962c41c1698bc870800000000000000
+      internalID: 8704201757771441820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_21
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 211
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7fa91817f61cc70800000000000000
+      internalID: 8989588864504625100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_22
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 211
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad37860b19d554a0800000000000000
+      internalID: -6605134568372093521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_23
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 211
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c57b09c943f19ed0800000000000000
+      internalID: -2408876827435371064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_24
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 211
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da7511be0d853450800000000000000
+      internalID: 6067911167191644887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_25
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 211
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1504aae636f0320800000000000000
+      internalID: 2526347242932031927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 177
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9efdd11a8132bca0800000000000000
+      internalID: -6002680884256440677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 177
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ad2f89aeea6b4c0800000000000000
+      internalID: -4272034873902704064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_28
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 177
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8510889a81c9bdfc0800000000000000
+      internalID: -3469007458221424296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_29
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 177
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2dffedc4dce1030800000000000000
+      internalID: 3467434493164376804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_30
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 177
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c5a95d0b0e19c00800000000000000
+      internalID: 905752050180709471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_31
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 177
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8697e99e97ccbdf10800000000000000
+      internalID: 2295653259057985896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_32
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 177
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f5f0d7e475c29f0800000000000000
+      internalID: -491922264673001718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_33
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 177
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039d144532e2d1aa0800000000000000
+      internalID: -6188739583664858832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_34
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 177
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79239b7e6c27dc570800000000000000
+      internalID: 8488567071280018071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_35
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 177
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842d91e8df921eac0800000000000000
+      internalID: -3827732039300689336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_36
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 177
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc7bea9c522d1470800000000000000
+      internalID: 8366881463855709398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_37
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 177
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941f70df7aad7a770800000000000000
+      internalID: 8622100426663653705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_38
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 177
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d98262a7f5d8cc0800000000000000
+      internalID: -3707201940025205386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c445325ebfc40a4d0800000000000000
+      internalID: -3125413496630324148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f52e772d9f6d36f0800000000000000
+      internalID: -703283246036802064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_41
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 144
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79e2824dd30336c0800000000000000
+      internalID: -4164980981549045377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_42
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 144
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59d3933331d84a80800000000000000
+      internalID: -8482299880313464486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_43
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 144
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e118973fbe7dc2f10800000000000000
+      internalID: 2246407722553147678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_44
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 144
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd82c4a4dac2d020800000000000000
+      internalID: 2365175768969022922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_45
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 144
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa797ff22d295a60800000000000000
+      internalID: 7663205869285899002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_46
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 144
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a15e2c4cc4f1e90800000000000000
+      internalID: -7052834083471812056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_47
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 144
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec362420a871c990800000000000000
+      internalID: -7367474886204834577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_48
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 144
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96cc33700bb21470800000000000000
+      internalID: 8363953068588189338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_49
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 143
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8363acaa20a2dab0800000000000000
+      internalID: -4984745732400258166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_50
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 144
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c05e8d4d634ac1a0800000000000000
+      internalID: -6788539351575932733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_51
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 144
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc33d9fd6df1f2e20800000000000000
+      internalID: 3327913657385169868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_52
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 110
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2874922dff803770800000000000000
+      internalID: 8588522806765189167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 110
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62c4b8a6f6e3dac0800000000000000
+      internalID: -3831464910895398292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_54
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 110
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adce53a0592faa510800000000000000
+      internalID: 1561326942772653274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_55
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 110
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51465cecd52526a0800000000000000
+      internalID: -6474727258487111329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_56
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 110
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e50a19054333d20800000000000000
+      internalID: 3257004476164234756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_57
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 110
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a99ea865dd9486c0800000000000000
+      internalID: -4142012217364145752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_58
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 110
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d318764c4a2c76600800000000000000
+      internalID: 461551499754307901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_59
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 110
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf9df08dc311a8c0800000000000000
+      internalID: -3989886021520220219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_60
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 110
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8d960ed9bf51420800000000000000
+      internalID: 2600261015369799883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_61
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 110
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e573e5d038ae8c80800000000000000
+      internalID: -8318526534006376985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_62
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 110
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd1570d87c6d49f0800000000000000
+      internalID: -482610318909563464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_63
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 110
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d1b7b6d9a0e9870800000000000000
+      internalID: 8691396002101009817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_64
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 110
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76004d295dbe2ee0800000000000000
+      internalID: -1283880653045102977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_65
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 77
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cdcb399bece0e10800000000000000
+      internalID: 2165895767254686773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_66
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 77
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1879d9ab18f0dd20800000000000000
+      internalID: 3301411324559980571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_67
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 77
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabc0cd65358c7840800000000000000
+      internalID: 5223196132364045228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_68
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 77
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe03c6bd74dc5c00800000000000000
+      internalID: 890820462714752752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_69
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 77
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066a58c8f719e8a20800000000000000
+      internalID: 3066548373290329696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_70
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 77
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ad956ce16328000800000000000000
+      internalID: 36651252777081401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_71
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 77
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc4cbd73fd00b2b0800000000000000
+      internalID: -5570937399619597107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_72
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 77
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf7492c41451ae80800000000000000
+      internalID: -8169155800932778061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_73
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 77
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4d38cd1da8f5b30800000000000000
+      internalID: 4278290804977685709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_74
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 77
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5915f8929df48b860800000000000000
+      internalID: 7545868969783021973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_75
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 77
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf9a59ffc22f6060800000000000000
+      internalID: 6948811026693005259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_76
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 77
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b12442d462b7a80800000000000000
+      internalID: -8468132561577436263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_77
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 77
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba577fe108ddc1700800000000000000
+      internalID: 512527999958480299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_78
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 44
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130b1d74b1ca0fb30800000000000000
+      internalID: 4319141275817324593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_79
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 44
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac9a6299e6b47e30800000000000000
+      internalID: 4500423041950063791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_80
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 44
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbae567a37131830800000000000000
+      internalID: 4040598830542924725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_81
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 44
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae74cc0207fa5c550800000000000000
+      internalID: 6180538959757330410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_82
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 44
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3300c44f5693b720800000000000000
+      internalID: 2860795524229890879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_83
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 44
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3200b5138cf310250800000000000000
+      internalID: 5909074315140857891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_84
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 44
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fada238c82b7400800000000000000
+      internalID: 322896638595936049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_85
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 44
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d9b60698550a3d0800000000000000
+      internalID: -3197461686916506303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_86
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 44
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e96a6a8710d4b230800000000000000
+      internalID: 3653773997229369826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_87
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 44
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf180ee658923480800000000000000
+      internalID: -8920900412739412037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_88
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 43
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b86bb9ab17ec9c80800000000000000
+      internalID: -8314516706035013454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_89
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 44
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81118e189c1c8f650800000000000000
+      internalID: 6266971952698102040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_90
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 44
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30592c211c7689950800000000000000
+      internalID: 6456024144776697091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_91
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 10
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626c99c356bf0de10800000000000000
+      internalID: 2220551028520633894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_92
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 10
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266d777a9353809a0800000000000000
+      internalID: -6266700359746988446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_93
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 10
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f774f0b1463577580800000000000000
+      internalID: -8829496855020746881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_94
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 10
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd9cec0d37fa0590800000000000000
+      internalID: -7707075970709283384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_95
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 10
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7298f11407006a0800000000000000
+      internalID: -6485060038409246761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_96
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 10
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6b3ec2aff1ec110800000000000000
+      internalID: 1282998103202576046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_97
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 10
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d46160a8543e6cf0800000000000000
+      internalID: -257210573461035821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_98
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 10
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b953ac85eacb080800000000000000
+      internalID: -9170263044860306572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_99
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 10
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8493bbbe970cbc80800000000000000
+      internalID: -8305755234442701686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_100
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 10
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16d1d24411d54af0800000000000000
+      internalID: -412693905883933153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_101
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 10
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367c61ddcbe1f18c0800000000000000
+      internalID: -4026465745333991581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_102
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 10
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfe5ffdc534818c0800000000000000
+      internalID: -4028395800509419592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Diverse_103
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 10
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c33ef4935236560800000000000000
+      internalID: 7305723948608732229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

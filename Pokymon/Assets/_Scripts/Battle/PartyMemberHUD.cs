@@ -5,14 +5,12 @@ using UnityEngine.UI;
 
 public class PartyMemberHUD : MonoBehaviour
 {
-   public Text nameText, lvlText, typeText, hpText;
+   public Text nameText, lvlText, typeText;
    public HealthBar healthBar;
    public Image pokemonImage;
 
    private Pokemon _pokemon;
-
-   [SerializeField] private Color selectedColor = Color.blue;  
-
+   
    public void SetPokemonData(Pokemon pokemon)
    {
       _pokemon = pokemon;
@@ -27,11 +25,11 @@ public class PartyMemberHUD : MonoBehaviour
       {
          typeText.text = $"{pokemon.Base.Type1.ToString().ToUpper()} - {pokemon.Base.Type2.ToString().ToUpper()}";
       }
-      hpText.text = $"{pokemon.HP} / {pokemon.MaxHP}";
-      healthBar.SetHP((float)pokemon.HP/pokemon.MaxHP);
+      
+      healthBar.SetHP(pokemon);
       pokemonImage.sprite = pokemon.Base.FrontSprite;
 
-      GetComponent<Image>().color = TypeColor.GetColorFromType(pokemon.Base.Type1);
+      GetComponent<Image>().color = ColorManager.TypeColor.GetColorFromType(pokemon.Base.Type1);
    }
    
    
@@ -39,7 +37,7 @@ public class PartyMemberHUD : MonoBehaviour
    {
       if (selected)
       {
-         nameText.color = selectedColor;
+         nameText.color =  ColorManager.SharedInstance.selectedColor;
       }
       else
       {

@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: c819528319639409ca124a1404e666b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8889288085591333692
+    second: Trainer Boy_0
+  - first:
+      213: -7162642726240760309
+    second: Trainer Boy_1
+  - first:
+      213: -5579038749580604069
+    second: Trainer Boy_2
+  - first:
+      213: -529464677540562419
+    second: Trainer Boy_3
+  - first:
+      213: -3099489457900492551
+    second: Trainer Boy_4
+  - first:
+      213: 5431555796840943239
+    second: Trainer Boy_5
+  - first:
+      213: 7764192809902476774
+    second: Trainer Boy_6
+  - first:
+      213: -6351038891975736474
+    second: Trainer Boy_7
+  - first:
+      213: 2296230358907742381
+    second: Trainer Boy_8
+  - first:
+      213: -3162160287669817052
+    second: Trainer Boy_9
+  - first:
+      213: -1208550197464669766
+    second: Trainer Boy_10
+  - first:
+      213: 3371178855250393242
+    second: Trainer Boy_11
+  - first:
+      213: 6887255427213874267
+    second: Trainer Boy_12
+  - first:
+      213: -2464091969445657549
+    second: Trainer Boy_13
+  - first:
+      213: -7221292964981103338
+    second: Trainer Boy_14
+  - first:
+      213: -576961943329766242
+    second: Trainer Boy_15
+  - first:
+      213: 843972814498734738
+    second: Trainer Boy_16
+  - first:
+      213: 3325154987278839447
+    second: Trainer Boy_17
+  - first:
+      213: 9025748235709654857
+    second: Trainer Boy_18
+  - first:
+      213: -4381270166120864748
+    second: Trainer Boy_19
+  - first:
+      213: -6156842253496513371
+    second: Trainer Boy_20
+  - first:
+      213: -7780501897302799206
+    second: Trainer Boy_21
+  - first:
+      213: 4718509673898309608
+    second: Trainer Boy_22
+  - first:
+      213: 2481576165543976842
+    second: Trainer Boy_23
+  - first:
+      213: 2048804090208349633
+    second: Trainer Boy_24
+  - first:
+      213: 3549886266204512790
+    second: Trainer Boy_25
+  - first:
+      213: -7104543131348047900
+    second: Trainer Boy_26
+  - first:
+      213: -979867670532264907
+    second: Trainer Boy_27
+  - first:
+      213: 8493637051010034970
+    second: Trainer Boy_28
+  - first:
+      213: 5027430348488752273
+    second: Trainer Boy_29
+  - first:
+      213: -5843334214467298407
+    second: Trainer Boy_30
+  - first:
+      213: -5017033805967875717
+    second: Trainer Boy_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trainer Boy_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 209
+        width: 88
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b98c79a681d5b70800000000000000
+      internalID: 8889288085591333692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 351
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e4269c36e299c90800000000000000
+      internalID: -7162642726240760309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 349
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dcb17f0d54392b0800000000000000
+      internalID: -5579038749580604069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 351
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0af3165ea6f6a8f0800000000000000
+      internalID: -529464677540562419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_4
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 349
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8e5c482c66cf4d0800000000000000
+      internalID: -3099489457900492551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_5
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 351
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e0b683833c06b40800000000000000
+      internalID: 5431555796840943239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 351
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed01e16934ffbb60800000000000000
+      internalID: 7764192809902476774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_7
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 351
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6638819e6c39cd7a0800000000000000
+      internalID: -6351038891975736474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_8
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 351
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8e9217859dddf10800000000000000
+      internalID: 2296230358907742381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 351
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421f792e8ffbd14d0800000000000000
+      internalID: -3162160287669817052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 295
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1e3e2affd5a3fe0800000000000000
+      internalID: -1208550197464669766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_11
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 294
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98f18dbe45d8ce20800000000000000
+      internalID: 3371178855250393242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_12
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 295
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54d6702252749f50800000000000000
+      internalID: 6887255427213874267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 294
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3348c4bb869cdcdd0800000000000000
+      internalID: -2464091969445657549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_14
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 301
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6152643fe40d8cb90800000000000000
+      internalID: -7221292964981103338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_15
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 252
+        width: 35
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9409ee5b283ef7f0800000000000000
+      internalID: -576961943329766242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 241
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292a840adc466bb00800000000000000
+      internalID: 843972814498734738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 239
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79eafdfe7d2552e20800000000000000
+      internalID: 3325154987278839447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_18
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 241
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947259d2336e14d70800000000000000
+      internalID: 9025748235709654857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_19
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 239
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41469533ff99233c0800000000000000
+      internalID: -4381270166120864748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_20
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 252
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac893e37908e8aa0800000000000000
+      internalID: -6156842253496513371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 186
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c830d4fba160490800000000000000
+      internalID: -7780501897302799206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_22
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 184
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7f3f57c838b7140800000000000000
+      internalID: 4718509673898309608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_23
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 186
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f1356ef54507220800000000000000
+      internalID: 2481576165543976842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_24
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 184
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd6c3b0770de6c10800000000000000
+      internalID: 2048804090208349633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_25
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 202
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612682240cab34130800000000000000
+      internalID: 3549886266204512790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 202
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7ee8cd9a7976d90800000000000000
+      internalID: -7104543131348047900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 8
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ce8039b8fc662f0800000000000000
+      internalID: -979867670532264907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_28
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 7
+        width: 152
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dac8c85e57fd570800000000000000
+      internalID: 8493637051010034970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_29
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 8
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cb0b6f34505c540800000000000000
+      internalID: 5027430348488752273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_30
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 8
+        width: 147
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b5ac2cd7e48eea0800000000000000
+      internalID: -5843334214467298407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trainer Boy_31
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 114
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71a829b55aef5ab0800000000000000
+      internalID: -5017033805967875717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

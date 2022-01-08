@@ -20,4 +20,17 @@ MonoBehaviour:
   type: 7
   power: 25
   accuracy: 100
+  alwaysHit: 0
   pp: 40
+  moveType: 1
+  effects:
+    boostings: []
+    status: 0
+    volatileStatus: 0
+  secondaryEffects:
+  - boostings: []
+    status: 1
+    volatileStatus: 0
+    chance: 10
+    target: 1
+  target: 1

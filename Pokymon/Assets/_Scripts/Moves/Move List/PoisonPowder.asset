@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee7c3af9116a24fe18c6b5895685f5b3, type: 3}
+  m_Name: PoisonPowder
+  m_EditorClassIdentifier: 
+  name: Polvo Venenoso
+  description: "PoisonPowder poisons the target. Poison- and Steel-type Pok\xE9mon
+    are unaffected by PoisonPowder. It also does not affect targets with Immunity
+    as their Ability."
+  type: 14
+  power: 0
+  accuracy: 75
+  pp: 35
+  moveType: 2
+  effects:
+    boostings: []
+    status: 4
+  target: 1

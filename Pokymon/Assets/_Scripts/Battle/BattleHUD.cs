@@ -10,7 +10,7 @@ public class BattleHUD : MonoBehaviour
     public Text pokemonName;
     public Text pokemonLevel;
     public HealthBar healthbar;
-    public Text pokemonHealth;
+    public GameObject statusBox;
     public GameObject expBar;
     
     private Pokemon _pokemon;
@@ -21,27 +21,20 @@ public class BattleHUD : MonoBehaviour
         
         pokemonName.text = pokemon.Base.Name;
         SetLevelText();
-        healthbar.SetHP((float)_pokemon.HP / _pokemon.MaxHP);
+        healthbar.SetHP(_pokemon);
         SetExp();
-        StartCoroutine(UpdatePokemonData(pokemon.HP));
+        StartCoroutine(UpdatePokemonData());
+        SetStatusConditionData();
+        _pokemon.OnStatusConditionChanged += SetStatusConditionData;
     }
 
-    public IEnumerator UpdatePokemonData(int oldHPVal)
+    public IEnumerator UpdatePokemonData()
     {
-        StartCoroutine(healthbar.SetSmoothHP((float)_pokemon.HP / _pokemon.MaxHP));
-        StartCoroutine(DecreaseHealthPoints(oldHPVal));
-        yield return null;
-    }
-
-    private IEnumerator DecreaseHealthPoints(int oldHPVal)
-    {
-        while (oldHPVal>_pokemon.HP)
+        if (_pokemon.HasHPChanged)
         {
-            oldHPVal--;
-            pokemonHealth.text = $"{oldHPVal}/{_pokemon.MaxHP}";
-            yield return new WaitForSeconds(0.1f);
+            yield return healthbar.SetSmoothHP(_pokemon);
+            _pokemon.HasHPChanged = false;
         }
-        pokemonHealth.text = $"{_pokemon.HP}/{_pokemon.MaxHP}";
     }
 
 
@@ -83,6 +76,24 @@ public class BattleHUD : MonoBehaviour
     public void SetLevelText()
     {
         pokemonLevel.text = $"Lv {_pokemon.Level}";
+    }
+
+    void SetStatusConditionData()
+    {
+        if (_pokemon.StatusCondition == null)
+        {
+            statusBox.SetActive(false);
+        }
+        else
+        {
+            statusBox.SetActive(true);
+            statusBox.GetComponent<Image>().color = 
+                ColorManager.StatusConditionColor.
+                    GetColorFromStatusCondition(_pokemon.StatusCondition.Id);
+            
+            statusBox.GetComponentInChildren<Text>().text = 
+                _pokemon.StatusCondition.Id.ToString().ToUpper();
+        }
     }
     
 }

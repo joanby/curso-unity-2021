@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using Unity.VisualScripting;
 
 [RequireComponent(typeof(Image))]
 public class BattleUnit : MonoBehaviour
@@ -42,10 +43,16 @@ public class BattleUnit : MonoBehaviour
       (isPlayer ? Pokemon.Base.BackSprite : Pokemon.Base.FrontSprite);
     pokemonImage.color = initialColor;
     
+    hud.gameObject.SetActive(true);
     hud.SetPokemonData(pokemon);
     transform.localScale = new Vector3(1,1,1);
     
     PlayStartAnimation();
+  }
+
+  public void ClearHUD()
+  {
+    hud.gameObject.SetActive(false);
   }
 
   public void PlayStartAnimation()

@@ -18,4 +18,12 @@ MonoBehaviour:
   type: 13
   power: 0
   accuracy: 100
-  pp: 40
+  pp: 35
+  moveType: 2
+  effects:
+    boostings:
+    - stat: 0
+      boost: -1
+      target: 1
+    status: 0
+  target: 1

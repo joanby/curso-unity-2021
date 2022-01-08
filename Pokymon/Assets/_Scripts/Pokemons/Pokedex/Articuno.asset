@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188606b04dcb544c29f84c3b74e3c35e, type: 3}
+  m_Name: Articuno
+  m_EditorClassIdentifier: 
+  ID: 144
+  name: Articuno
+  description: "Se protege con su caparaz\xF3n y luego contraataca lanzando agua
+    a presi\xF3n cuando tiene oportunidad."
+  frontSprite: {fileID: 21300000, guid: 6fabd9a81f44a4c839eeb3e82b9430b3, type: 3}
+  backSprite: {fileID: 21300000, guid: 825aad642fbeb4f62b28ff75e90b0043, type: 3}
+  type1: 12
+  type2: 8
+  catchRate: 45
+  maxHP: 44
+  attack: 48
+  defense: 65
+  spAttack: 50
+  spDefense: 64
+  speed: 43
+  expBase: 64
+  growthRate: 3
+  learnableMoves:
+  - move: {fileID: 11400000, guid: a8481155b4aa34b80ba2d03df7107774, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 0ddc8d845ebee4f79b6c90032ab84334, type: 2}
+    level: 7

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188606b04dcb544c29f84c3b74e3c35e, type: 3}
+  m_Name: Butterfree
+  m_EditorClassIdentifier: 
+  ID: 12
+  name: Buterfree
+  description: Pokemon Polilla
+  frontSprite: {fileID: 21300000, guid: a973569d7f88646329ef1d6707963717, type: 3}
+  backSprite: {fileID: 21300000, guid: daa281eb2b7ad461199ae67d897883e9, type: 3}
+  type1: 1
+  type2: 14
+  catchRate: 45
+  maxHP: 45
+  attack: 49
+  defense: 49
+  spAttack: 65
+  spDefense: 65
+  speed: 45
+  expBase: 64
+  growthRate: 3
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 25450aa19126d4eb8989299563323507, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8117364aa6cb34c4abdb151db7f81534, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 9aa96db55ea0e43a682510a0cb666b25, type: 2}
+    level: 13
