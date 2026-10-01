@@ -2,7 +2,7 @@
 
 > Esta rama es el mismo curso —el curso de desarrollo de videojuegos con Unity 2021—, preparada para abrirse con **Unity 6**. La rama
 > principal sigue exactamente como en el vídeo.
-> Preparado con la misma receta que el curso de Unity 2020, que sí se comprobó abriéndolo en Unity 6. Estos proyectos se han revisado contra el código fuente de Unity 6, pero aún no se han abierto en el editor.
+> Revisado contra el código fuente de Unity 6 y **comprobado abriendo los proyectos en el editor de Unity 6** (octubre de 2026). Si algo no abre o no compila, cuéntalo en la comunidad del curso.
 
 ## Cómo usarla
 
